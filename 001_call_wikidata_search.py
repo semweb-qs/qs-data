@@ -26,7 +26,6 @@ def main():
     with open('semweb-data-001.csv') as csvfile:
         semweb_data = list(csv.reader(csvfile))
     n = len(semweb_data)
-    semweb_data[0].append('wikidata_entity')
     tot_failed = 943
     failed = 0
     ok = 0
