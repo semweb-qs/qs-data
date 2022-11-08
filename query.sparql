@@ -1,8 +1,11 @@
 # Query URL: https://query.wikidata.org/
 # Endpoint: https://query.wikidata.org/sparql
 PREFIX wd: <http://www.wikidata.org/entity/>
-PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 
-SELECT * WHERE {
-  ?universitas p:P31 wd:Q3918
-}
+SELECT ?universitas (MAX(?namaUniversitas) AS ?nama) WHERE {
+  ?universitas wdt:P31 wd:Q3918 .
+  ?universitas rdfs:label ?namaUniversitas .
+  FILTER (lang(?namaUniversitas) = 'en')
+} GROUP BY ?universitas
