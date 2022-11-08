@@ -1,32 +1,4 @@
 {
-  "paul-valery-university-montpellier": [
-    "http://www.wikidata.org/entity/Q200639",
-    {
-      "id": "Q200639",
-      "title": "Q200639",
-      "pageid": 197370,
-      "display": {
-        "label": {
-          "value": "Paul Val\u00e9ry",
-          "language": "en"
-        },
-        "description": {
-          "value": "French poet, essayist, and philosopher (1871\u20131945)",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q200639",
-      "concepturi": "http://www.wikidata.org/entity/Q200639",
-      "label": "Paul Val\u00e9ry",
-      "description": "French poet, essayist, and philosopher (1871\u20131945)",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Paul Val\u00e9ry"
-      }
-    }
-  ],
   "university-lahore": [
     "http://www.wikidata.org/entity/Q7842",
     {
