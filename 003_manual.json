@@ -137,93 +137,6 @@
       ]
     }
   ],
-  "universite-de-versailles-saint-quentin-en-yvelines-uvsq": [
-    "http://www.wikidata.org/entity/Q186638",
-    {
-      "id": "Q186638",
-      "title": "Q186638",
-      "pageid": 185406,
-      "display": {
-        "label": {
-          "value": "Universit\u00e9 de Versailles Saint-Quentin-en-Yvelines",
-          "language": "en"
-        },
-        "description": {
-          "value": "French public university created in 1991 member of the Universit\u00e9 Paris-Saclay",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q186638",
-      "concepturi": "http://www.wikidata.org/entity/Q186638",
-      "label": "Universit\u00e9 de Versailles Saint-Quentin-en-Yvelines",
-      "description": "French public university created in 1991 member of the Universit\u00e9 Paris-Saclay",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Universit\u00e9 de Versailles Saint-Quentin-en-Yvelines"
-      }
-    }
-  ],
-  "izmir-institute-technology-iztech": [
-    "http://www.wikidata.org/entity/Q344405",
-    {
-      "id": "Q344405",
-      "title": "Q344405",
-      "pageid": 329767,
-      "display": {
-        "label": {
-          "value": "\u0130zmir Institute of Technology",
-          "language": "en"
-        },
-        "description": {
-          "value": "public university in \u0130zmir, Turkey",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q344405",
-      "concepturi": "http://www.wikidata.org/entity/Q344405",
-      "label": "\u0130zmir Institute of Technology",
-      "description": "public university in \u0130zmir, Turkey",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "\u0130zmir Institute of Technology"
-      }
-    }
-  ],
-  "saken-seifullin-kazakh-agrotechnical-university": [
-    "http://www.wikidata.org/entity/Q4208086",
-    {
-      "id": "Q4208086",
-      "title": "Q4208086",
-      "pageid": 4017398,
-      "display": {
-        "label": {
-          "value": "Kazakh Agro Technical University",
-          "language": "en"
-        },
-        "description": {
-          "value": "university in Astana, Kazakhstan",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q4208086",
-      "concepturi": "http://www.wikidata.org/entity/Q4208086",
-      "label": "Kazakh Agro Technical University",
-      "description": "university in Astana, Kazakhstan",
-      "match": {
-        "type": "alias",
-        "language": "en",
-        "text": "Saken Seifullin Kazakh Agro Technical University"
-      },
-      "aliases": [
-        "Saken Seifullin Kazakh Agro Technical University"
-      ]
-    }
-  ],
   "gheorghe-asachi-technical-university-iasi": [
     "http://www.wikidata.org/entity/Q1475036",
     {
@@ -286,96 +199,6 @@
       ]
     }
   ],
-  "universidad-autonoma-de-queretaro-uaq": [
-    "http://www.wikidata.org/entity/Q2879544",
-    {
-      "id": "Q2879544",
-      "title": "Q2879544",
-      "pageid": 2756744,
-      "display": {
-        "label": {
-          "value": "Autonomous University of Queretaro",
-          "language": "en"
-        },
-        "description": {
-          "value": "university in Mexico",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q2879544",
-      "concepturi": "http://www.wikidata.org/entity/Q2879544",
-      "label": "Autonomous University of Queretaro",
-      "description": "university in Mexico",
-      "match": {
-        "type": "alias",
-        "language": "en",
-        "text": "Universidad Aut\u00f3noma de Quer\u00e9taro"
-      },
-      "aliases": [
-        "Universidad Aut\u00f3noma de Quer\u00e9taro"
-      ]
-    }
-  ],
-  "universidad-autonoma-de-san-luis-de-potosi": [
-    "http://www.wikidata.org/entity/Q7894242",
-    {
-      "id": "Q7894242",
-      "title": "Q7894242",
-      "pageid": 7831763,
-      "display": {
-        "label": {
-          "value": "Autonomous University of San Luis Potos\u00ed",
-          "language": "en"
-        },
-        "description": {
-          "value": "public university",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q7894242",
-      "concepturi": "http://www.wikidata.org/entity/Q7894242",
-      "label": "Autonomous University of San Luis Potos\u00ed",
-      "description": "public university",
-      "match": {
-        "type": "alias",
-        "language": "en",
-        "text": "Universidad Autonoma de San Luis Potosi"
-      },
-      "aliases": [
-        "Universidad Autonoma de San Luis Potosi"
-      ]
-    }
-  ],
-  "universidad-autonoma-del-estado-de-morelos-uaem": [
-    "http://www.wikidata.org/entity/Q6156367",
-    {
-      "id": "Q6156367",
-      "title": "Q6156367",
-      "pageid": 5951183,
-      "display": {
-        "label": {
-          "value": "Universidad Aut\u00f3noma del Estado de Morelos",
-          "language": "en"
-        },
-        "description": {
-          "value": "university in Mexico",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q6156367",
-      "concepturi": "http://www.wikidata.org/entity/Q6156367",
-      "label": "Universidad Aut\u00f3noma del Estado de Morelos",
-      "description": "university in Mexico",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Universidad Aut\u00f3noma del Estado de Morelos"
-      }
-    }
-  ],
   "catholic-university-cordoba": [
     "http://www.wikidata.org/entity/Q30294086",
     {
@@ -401,118 +224,6 @@
         "type": "label",
         "language": "en",
         "text": "Cat\u00f3lica del Norte Fundaci\u00f3n Universitaria"
-      }
-    }
-  ],
-  "universidad-de-las-fuerzas-armadas-espe-ex-escuela-politecnica-del-ejercito": [
-    "http://www.wikidata.org/entity/Q52636249",
-    {
-      "id": "Q52636249",
-      "title": "Q52636249",
-      "pageid": 53452310,
-      "display": {
-        "label": {
-          "value": "Universidad de las Fuerzas Armadas ESPE",
-          "language": "en"
-        },
-        "description": {
-          "value": "Academic publisher based in Ecuador",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q52636249",
-      "concepturi": "http://www.wikidata.org/entity/Q52636249",
-      "label": "Universidad de las Fuerzas Armadas ESPE",
-      "description": "Academic publisher based in Ecuador",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Universidad de las Fuerzas Armadas ESPE"
-      }
-    }
-  ],
-  "universidad-de-panama": [
-    "http://www.wikidata.org/entity/Q7896059",
-    {
-      "id": "Q7896059",
-      "title": "Q7896059",
-      "pageid": 7833623,
-      "display": {
-        "label": {
-          "value": "Universidad de Panam\u00e1",
-          "language": "en"
-        },
-        "description": {
-          "value": "university in Panama",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q7896059",
-      "concepturi": "http://www.wikidata.org/entity/Q7896059",
-      "label": "Universidad de Panam\u00e1",
-      "description": "university in Panama",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Universidad de Panam\u00e1"
-      }
-    }
-  ],
-  "universidad-del-desarrollo-udd": [
-    "http://www.wikidata.org/entity/Q1778689",
-    {
-      "id": "Q1778689",
-      "title": "Q1778689",
-      "pageid": 1710608,
-      "display": {
-        "label": {
-          "value": "Universidad del Desarrollo",
-          "language": "en"
-        },
-        "description": {
-          "value": "Chilean private university",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q1778689",
-      "concepturi": "http://www.wikidata.org/entity/Q1778689",
-      "label": "Universidad del Desarrollo",
-      "description": "Chilean private university",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Universidad del Desarrollo"
-      }
-    }
-  ],
-  "universidad-mayor-de-san-andres-umsa": [
-    "http://www.wikidata.org/entity/Q42821694",
-    {
-      "id": "Q42821694",
-      "title": "Q42821694",
-      "pageid": 44075045,
-      "display": {
-        "label": {
-          "value": "Universidad Mayor de San Andr\u00e9s",
-          "language": "en"
-        },
-        "description": {
-          "value": "As a cultural property",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q42821694",
-      "concepturi": "http://www.wikidata.org/entity/Q42821694",
-      "label": "Universidad Mayor de San Andr\u00e9s",
-      "description": "As a cultural property",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Universidad Mayor de San Andr\u00e9s"
       }
     }
   ],
@@ -547,34 +258,6 @@
       ]
     }
   ],
-  "ulsan-national-institute-science-technology-unist": [
-    "http://www.wikidata.org/entity/Q484108",
-    {
-      "id": "Q484108",
-      "title": "Q484108",
-      "pageid": 455669,
-      "display": {
-        "label": {
-          "value": "Ulsan National Institute of Science and Technology",
-          "language": "en"
-        },
-        "description": {
-          "value": "research university in Ulsan, South Korea",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q484108",
-      "concepturi": "http://www.wikidata.org/entity/Q484108",
-      "label": "Ulsan National Institute of Science and Technology",
-      "description": "research university in Ulsan, South Korea",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Ulsan National Institute of Science and Technology"
-      }
-    }
-  ],
   "mgimo-school-business-international-proficiency": [
     "http://www.wikidata.org/entity/Q322964",
     {
@@ -604,34 +287,6 @@
       "aliases": [
         "MGIMO University"
       ]
-    }
-  ],
-  "canadian-university-dubai": [
-    "http://www.wikidata.org/entity/Q5030654",
-    {
-      "id": "Q5030654",
-      "title": "Q5030654",
-      "pageid": 4807352,
-      "display": {
-        "label": {
-          "value": "Canadian University of Dubai",
-          "language": "en"
-        },
-        "description": {
-          "value": "Private university in Dubai",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q5030654",
-      "concepturi": "http://www.wikidata.org/entity/Q5030654",
-      "label": "Canadian University of Dubai",
-      "description": "Private university in Dubai",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Canadian University of Dubai"
-      }
     }
   ],
   "sd-asfendiyarov-kazakh-national-medical-university": [
@@ -665,34 +320,6 @@
       ]
     }
   ],
-  "universidad-nacional-del-centro-de-la-provincia-de-buenos-aires-unicen": [
-    "http://www.wikidata.org/entity/Q52575379",
-    {
-      "id": "Q52575379",
-      "title": "Q52575379",
-      "pageid": 53403578,
-      "display": {
-        "label": {
-          "value": "Universidad Nacional del Centro de la Provincia de Buenos Aires, Facultad de Ciencias Humanas, Instituto de Estudios Hist\u00f3rico-S",
-          "language": "en"
-        },
-        "description": {
-          "value": "Academic publisher based in Argentina",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q52575379",
-      "concepturi": "http://www.wikidata.org/entity/Q52575379",
-      "label": "Universidad Nacional del Centro de la Provincia de Buenos Aires, Facultad de Ciencias Humanas, Instituto de Estudios Hist\u00f3rico-S",
-      "description": "Academic publisher based in Argentina",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Universidad Nacional del Centro de la Provincia de Buenos Aires, Facultad de Ciencias Humanas, Instituto de Estudios Hist\u00f3rico-S"
-      }
-    }
-  ],
   "jouf-university": [
     "http://www.wikidata.org/entity/Q113549581",
     {
@@ -718,34 +345,6 @@
         "type": "label",
         "language": "en",
         "text": "Jouf"
-      }
-    }
-  ],
-  "vilnius-gediminas-technical-university-vilnius-tech": [
-    "http://www.wikidata.org/entity/Q389852",
-    {
-      "id": "Q389852",
-      "title": "Q389852",
-      "pageid": 370972,
-      "display": {
-        "label": {
-          "value": "Vilnius Gediminas Technical University",
-          "language": "en"
-        },
-        "description": {
-          "value": "public university in Vilnius, Lithuania",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q389852",
-      "concepturi": "http://www.wikidata.org/entity/Q389852",
-      "label": "Vilnius Gediminas Technical University",
-      "description": "public university in Vilnius, Lithuania",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Vilnius Gediminas Technical University"
       }
     }
   ],
@@ -842,65 +441,6 @@
       ]
     }
   ],
-  "universidad-autonoma-del-estado-de-hidalgo-uaeh": [
-    "http://www.wikidata.org/entity/Q7894245",
-    {
-      "id": "Q7894245",
-      "title": "Q7894245",
-      "pageid": 7831766,
-      "display": {
-        "label": {
-          "value": "Universidad Aut\u00f3noma del Estado de Hidalgo",
-          "language": "en"
-        },
-        "description": {
-          "value": "university in Mexico",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q7894245",
-      "concepturi": "http://www.wikidata.org/entity/Q7894245",
-      "label": "Universidad Aut\u00f3noma del Estado de Hidalgo",
-      "description": "university in Mexico",
-      "match": {
-        "type": "label",
-        "language": "en",
-        "text": "Universidad Aut\u00f3noma del Estado de Hidalgo"
-      }
-    }
-  ],
-  "universiti-kuala-lumpur-unikl": [
-    "http://www.wikidata.org/entity/Q7895613",
-    {
-      "id": "Q7895613",
-      "title": "Q7895613",
-      "pageid": 7833163,
-      "display": {
-        "label": {
-          "value": "University of Kuala Lumpur",
-          "language": "en"
-        },
-        "description": {
-          "value": "university in Malaysia",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q7895613",
-      "concepturi": "http://www.wikidata.org/entity/Q7895613",
-      "label": "University of Kuala Lumpur",
-      "description": "university in Malaysia",
-      "match": {
-        "type": "alias",
-        "language": "en",
-        "text": "Universiti Kuala Lumpur"
-      },
-      "aliases": [
-        "Universiti Kuala Lumpur"
-      ]
-    }
-  ],
   "university-northampton": [
     "http://www.wikidata.org/entity/Q7842",
     {
@@ -963,66 +503,4 @@
       ]
     }
   ],
-  "national-research-university-moscow-power-engineering-institute-mpei": [
-    "http://www.wikidata.org/entity/Q1719898",
-    {
-      "id": "Q1719898",
-      "title": "Q1719898",
-      "pageid": 1653023,
-      "display": {
-        "label": {
-          "value": "Moscow Aviation Institute",
-          "language": "en"
-        },
-        "description": {
-          "value": "engineering higher education establishment in Moscow, Russia",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q1719898",
-      "concepturi": "http://www.wikidata.org/entity/Q1719898",
-      "label": "Moscow Aviation Institute",
-      "description": "engineering higher education establishment in Moscow, Russia",
-      "match": {
-        "type": "alias",
-        "language": "en",
-        "text": "National Research University"
-      },
-      "aliases": [
-        "National Research University"
-      ]
-    }
-  ],
-  "university-politehnica-timisoara-upt": [
-    "http://www.wikidata.org/entity/Q1465448",
-    {
-      "id": "Q1465448",
-      "title": "Q1465448",
-      "pageid": 1403527,
-      "display": {
-        "label": {
-          "value": "Politehnica University of Bucharest",
-          "language": "en"
-        },
-        "description": {
-          "value": "university in Bucharest, Romania",
-          "language": "en"
-        }
-      },
-      "repository": "wikidata",
-      "url": "//www.wikidata.org/wiki/Q1465448",
-      "concepturi": "http://www.wikidata.org/entity/Q1465448",
-      "label": "Politehnica University of Bucharest",
-      "description": "university in Bucharest, Romania",
-      "match": {
-        "type": "alias",
-        "language": "en",
-        "text": "University Politehnica of Bucharest"
-      },
-      "aliases": [
-        "University Politehnica of Bucharest"
-      ]
-    }
-  ]
 }
