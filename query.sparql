@@ -4,8 +4,8 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 
-SELECT ?universitas (MAX(?namaUniversitas) AS ?nama) WHERE {
-  ?universitas wdt:P31 wd:Q3918 .
-  ?universitas rdfs:label ?namaUniversitas .
-  FILTER (lang(?namaUniversitas) = 'en')
-} GROUP BY ?universitas
+SELECT ?universitas ?idqsworld WHERE {
+    ?universitas wdt:P5584 ?idqsworld .
+#    ?universitas rdfs:label ?namaUniversitas .
+#    FILTER (lang(?namaUniversitas) = 'en')
+}
