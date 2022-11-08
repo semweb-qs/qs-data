@@ -1,0 +1,19 @@
+# Query URL: https://query.wikidata.org/
+# Endpoint: https://query.wikidata.org/sparql
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT DISTINCT
+?universitas
+?namaUniversitas
+?kota
+?namaKota WHERE {
+    ?universitas wdt:P31 ?tipe .
+    ?tipe wdt:P279* wd:Q38723 .
+    ?universitas wdt:P131 ?kota .
+    ?universitas rdfs:label ?namaUniversitas .
+    FILTER (lang(?namaUniversitas) = 'en')
+    ?kota rdfs:label ?namaKota
+    FILTER (lang(?namaKota) = 'en')
+} ORDER BY ?namaUniversitas
