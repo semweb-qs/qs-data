@@ -7662,7 +7662,7 @@
         p:hasScore  "62.8"^^xsd:double ;
         p:inYear    :2019 .
 
-:PrivateUniversity  rdfs:label  "Private" ;
+:PrivateUniversity  rdfs:label  "Private University" ;
         rdfs:subClassOf  :University .
 
 :CityUmeaSweden  rdf:type  :City ;
@@ -11843,7 +11843,7 @@
         p:hasScore  "58.2"^^xsd:double ;
         p:inYear    :2018 .
 
-:PublicUniversity  rdfs:label  "Public" ;
+:PublicUniversity  rdfs:label  "Public University" ;
         rdfs:subClassOf  :University .
 
 :2017R5  rdf:type   :Award ;
