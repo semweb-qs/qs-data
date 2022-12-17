@@ -225,7 +225,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "6.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :Q1549932  rdf:type                :PublicUniversity ;
         rdfs:label                 "University of the Punjab" ;
@@ -323,6 +323,11 @@
         p:hasRank   "150"^^xsd:int ;
         p:hasScore  "50.3"^^xsd:double ;
         p:inYear    :2020 .
+
+:CityNablusPalestinianTerritoryOccupied
+        rdf:type     :City ;
+        rdfs:label   "Nablus" ;
+        p:inCountry  :CountryPalestinianTerritoryOccupied .
 
 :2018R56  rdf:type  :Award ;
         rdfs:label  "Rank 56 in 2018" ;
@@ -426,7 +431,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityJinanChina(Mainland)> .
+        p:inCity                   :CityJinanChinaMainland .
 
 :Q464361  rdf:type                 :PrivateUniversity ;
         rdfs:label                 "Lebanese American University" ;
@@ -730,6 +735,11 @@
         p:hasScore  "30.5"^^xsd:double ;
         p:inYear    :2018 .
 
+:CityLouvainlaNeuveBelgium
+        rdf:type     :City ;
+        rdfs:label   "Louvain-la-Neuve" ;
+        p:inCountry  :CountryBelgium .
+
 :Q39793447  rdf:type               :PublicUniversity ;
         rdfs:label                 "Khalifa University of Science and Technology" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q39793447> ;
@@ -989,6 +999,11 @@
         rdfs:label   "Ghent" ;
         p:inCountry  :CountryBelgium .
 
+:CityTianjinChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Tianjin" ;
+        p:inCountry  :CountryChinaMainland .
+
 :Q161562  rdf:type                 :PrivateUniversity ;
         rdfs:label                 "California Institute of Technology (Caltech)" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q161562> ;
@@ -1071,7 +1086,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityChongqingChina(Mainland)> .
+        p:inCity                   :CityChongqingChinaMainland .
 
 :CityMacauSAR  rdf:type  :City ;
         p:inCountry  :CountryMacauSAR .
@@ -1668,7 +1683,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "5.0"^^xsd:double ;
-        p:inCity                   :CitySt.LouisUnitedStates .
+        p:inCity                   :CityStLouisUnitedStates .
 
 :2019R338  rdf:type  :Award ;
         rdfs:label  "Rank 338 in 2019" ;
@@ -1688,6 +1703,11 @@
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
         p:inCity                   :CityBremenGermany .
+
+:CityJerusalemPalestinianTerritoryOccupied
+        rdf:type     :City ;
+        rdfs:label   "Jerusalem" ;
+        p:inCountry  :CountryPalestinianTerritoryOccupied .
 
 :2019R481  rdf:type  :Award ;
         rdfs:label  "Rank 481 in 2019" ;
@@ -2277,11 +2297,6 @@
         p:hasStudentFacultyRatio   "8.0"^^xsd:double ;
         p:inCity                   :CitySaltLakeCityUnitedStates .
 
-<http://qs.hocky.id/v/CityXi'anChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Xi'an" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
-
 :2021R414  rdf:type  :Award ;
         rdfs:label  "Rank 414 in 2021" ;
         p:hasRank   "414"^^xsd:int ;
@@ -2376,7 +2391,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityNanjingChina(Mainland)> .
+        p:inCity                   :CityNanjingChinaMainland .
 
 :Q178848  rdf:type                 :PrivateUniversity ;
         rdfs:label                 "University of Notre Dame" ;
@@ -2436,7 +2451,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "7.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityHefeiChina(Mainland)> .
+        p:inCity                   :CityHefeiChinaMainland .
 
 :Q1074097  rdf:type                :PublicUniversity ;
         rdfs:label                 "China University of Geosciences" ;
@@ -2449,7 +2464,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "8.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityWuhanChina(Mainland)> .
+        p:inCity                   :CityWuhanChinaMainland .
 
 :2022R264  rdf:type  :Award ;
         rdfs:label  "Rank 264 in 2022" ;
@@ -2481,7 +2496,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "21.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityTehranIran,IslamicRepublicof> .
+        p:inCity                   :CityTehranIranIslamicRepublicof .
 
 :2021R387  rdf:type  :Award ;
         rdfs:label  "Rank 387 in 2021" ;
@@ -2676,7 +2691,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "7.0"^^xsd:double ;
-        p:inCity                   :CityRostov-on-DonRussia .
+        p:inCity                   :CityRostovonDonRussia .
 
 :Q55619051  rdf:type               :PublicUniversity ;
         rdfs:label                 "Technological University Dublin" ;
@@ -2854,6 +2869,11 @@
         p:hasRank   "171"^^xsd:int ;
         p:hasScore  "50.8"^^xsd:double ;
         p:inYear    :2018 .
+
+:CityShanghaiChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Shanghai" ;
+        p:inCountry  :CountryChinaMainland .
 
 :CityPortoAlegreBrazil
         rdf:type     :City ;
@@ -3263,6 +3283,11 @@
         p:hasStudentFacultyRatio   "36.0"^^xsd:double ;
         p:inCity                   :CityLaSerenaChile .
 
+:CityClujNapocaRomania
+        rdf:type     :City ;
+        rdfs:label   "Cluj-Napoca" ;
+        p:inCountry  :CountryRomania .
+
 :2020R89  rdf:type  :Award ;
         rdfs:label  "Rank 89 in 2020" ;
         p:hasRank   "89"^^xsd:int ;
@@ -3425,11 +3450,6 @@
         p:hasScore  "55.9"^^xsd:double ;
         p:inYear    :2019 .
 
-<http://qs.hocky.id/v/CityHangzhouChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Hangzhou" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
-
 :Q262854  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Lancaster University" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q262854> ;
@@ -3454,7 +3474,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :CityLismoreAustralia
         rdf:type     :City ;
@@ -3676,7 +3696,12 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityDalianChina(Mainland)> .
+        p:inCity                   :CityDalianChinaMainland .
+
+:CityChengduChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Chengdu" ;
+        p:inCountry  :CountryChinaMainland .
 
 :2020R120  rdf:type  :Award ;
         rdfs:label  "Rank 120 in 2020" ;
@@ -3851,7 +3876,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "29.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityTehranIran,IslamicRepublicof> .
+        p:inCity                   :CityTehranIranIslamicRepublicof .
 
 :Q861888  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Oregon State University" ;
@@ -3906,7 +3931,7 @@
         p:hasResearchOutput        :Medium ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "20.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBirzeitPalestinianTerritory,Occupied> .
+        p:inCity                   :CityBirzeitPalestinianTerritoryOccupied .
 
 :2019R551to560  rdf:type  :Award ;
         rdfs:label  "Rank 551-560 in 2019" ;
@@ -4096,7 +4121,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "16.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShanghaiChina(Mainland)> .
+        p:inCity                   :CityShanghaiChinaMainland .
 
 :CountryFrance  rdf:type  :Country ;
         rdfs:label  "France" ;
@@ -4120,12 +4145,6 @@
         rdfs:label  "Rank 531-540 in 2020" ;
         p:hasRank   "531-540"^^xsd:int ;
         p:inYear    :2020 .
-
-<http://qs.hocky.id/v/CountryIran,IslamicRepublicof>
-        rdf:type    :Country ;
-        rdfs:label  "Iran, Islamic Republic of" ;
-        owl:sameAs  <http://www.wikidata.org/entity/Q794> ;
-        p:inRegion  :RegionAsia .
 
 :CountryMalta  rdf:type  :Country ;
         rdfs:label  "Malta" ;
@@ -4245,6 +4264,11 @@
         p:hasRank   "21"^^xsd:int ;
         p:hasScore  "87.0"^^xsd:double ;
         p:inYear    :2018 .
+
+:CityDalianChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Dalian" ;
+        p:inCountry  :CountryChinaMainland .
 
 :2022R477  rdf:type  :Award ;
         rdfs:label  "Rank 477 in 2022" ;
@@ -4443,11 +4467,6 @@
         p:hasStudentFacultyRatio   "25.0"^^xsd:double ;
         p:inCity                   :CityChietiItaly .
 
-:CityMaslak-IstanbulTurkey
-        rdf:type     :City ;
-        rdfs:label   "Maslak-Istanbul" ;
-        p:inCountry  :CountryTurkey .
-
 :2021R160  rdf:type  :Award ;
         rdfs:label  "Rank 160 in 2021" ;
         p:hasRank   "160"^^xsd:int ;
@@ -4459,6 +4478,10 @@
         p:hasRank   "384"^^xsd:int ;
         p:hasScore  "31.6"^^xsd:double ;
         p:inYear    :2018 .
+
+:CityAsSaltJordan  rdf:type  :City ;
+        rdfs:label   "As-Salt" ;
+        p:inCountry  :CountryJordan .
 
 :CityIrbidJordan  rdf:type  :City ;
         rdfs:label   "Irbid" ;
@@ -4883,7 +4906,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "16.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityChengduChina(Mainland)> .
+        p:inCity                   :CityChengduChinaMainland .
 
 :2019R52  rdf:type  :Award ;
         rdfs:label  "Rank 52 in 2019" ;
@@ -4931,6 +4954,11 @@
         p:hasRank   "236"^^xsd:int ;
         p:hasScore  "42.9"^^xsd:double ;
         p:inYear    :2018 .
+
+:CityRostovonDonRussia
+        rdf:type     :City ;
+        rdfs:label   "Rostov-on-Don" ;
+        p:inCountry  :CountryRussia .
 
 :2017R359  rdf:type  :Award ;
         rdfs:label  "Rank 359 in 2017" ;
@@ -5703,11 +5731,6 @@
         p:hasScore  "43.4"^^xsd:double ;
         p:inYear    :2017 .
 
-<http://qs.hocky.id/v/CityBe'erShevaIsrael>
-        rdf:type     :City ;
-        rdfs:label   "Be'er Sheva" ;
-        p:inCountry  :CountryIsrael .
-
 :Q175241  rdf:type                 :PublicUniversity ;
         rdfs:label                 "University of Antwerp" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q175241> ;
@@ -5909,6 +5932,11 @@
         p:hasRank   "141"^^xsd:int ;
         p:hasScore  "55.6"^^xsd:double ;
         p:inYear    :2018 .
+
+:CityNanjingChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Nanjing" ;
+        p:inCountry  :CountryChinaMainland .
 
 :2017R264  rdf:type  :Award ;
         rdfs:label  "Rank 264 in 2017" ;
@@ -6806,6 +6834,11 @@
         p:hasScore  "69.1"^^xsd:double ;
         p:inYear    :2018 .
 
+:CityChangchunChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Changchun" ;
+        p:inCountry  :CountryChinaMainland .
+
 :Q864855  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Georgia Institute of Technology" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q864855> ;
@@ -6830,7 +6863,7 @@
         p:hasResearchOutput        :Medium ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityMu'tahJordan> .
+        p:inCity                   :CityMutahJordan .
 
 :2021R177  rdf:type  :Award ;
         rdfs:label  "Rank 177 in 2021" ;
@@ -6854,6 +6887,10 @@
         p:hasRank   "54"^^xsd:int ;
         p:hasScore  "72.4"^^xsd:double ;
         p:inYear    :2020 .
+
+:CityColomboSriLanka  rdf:type  :City ;
+        rdfs:label   "Colombo," ;
+        p:inCountry  :CountrySriLanka .
 
 :Q422208  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Wageningen University & Research" ;
@@ -7008,7 +7045,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "8.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShenzhenChina(Mainland)> .
+        p:inCity                   :CityShenzhenChinaMainland .
 
 :2021R220  rdf:type  :Award ;
         rdfs:label  "Rank 220 in 2021" ;
@@ -7058,11 +7095,6 @@
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
         p:inCity                   :CitySaoPauloBrazil .
-
-<http://qs.hocky.id/v/CityBeijingChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Beijing" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :2021R135  rdf:type  :Award ;
         rdfs:label  "Rank 135 in 2021" ;
@@ -7569,7 +7601,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "5.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityChina(Mainland)> .
+        p:inCity                   :CityChinaMainland .
 
 :Q666128  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Indiana State University" ;
@@ -7827,7 +7859,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :CityLincolnNewZealand
         rdf:type     :City ;
@@ -8332,7 +8364,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityWuhanChina(Mainland)> .
+        p:inCity                   :CityWuhanChinaMainland .
 
 :Q835366  rdf:type                 :PublicUniversity ;
         rdfs:label                 "South China University of Technology" ;
@@ -8345,7 +8377,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityGuangzhouChina(Mainland)> .
+        p:inCity                   :CityGuangzhouChinaMainland .
 
 :2017R366  rdf:type  :Award ;
         rdfs:label  "Rank 366 in 2017" ;
@@ -8661,6 +8693,11 @@
         p:hasScore  "48.1"^^xsd:double ;
         p:inYear    :2018 .
 
+:CityXianChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Xi'an" ;
+        p:inCountry  :CountryChinaMainland .
+
 :CityGwangjuSouthKorea
         rdf:type     :City ;
         rdfs:label   "Gwangju" ;
@@ -8714,6 +8751,9 @@
         rdfs:label   "Moscow" ;
         p:inCountry  :CountryRussia .
 
+:CityChinaMainland  rdf:type  :City ;
+        p:inCountry  :CountryChinaMainland .
+
 :2017R98  rdf:type  :Award ;
         rdfs:label  "Rank 98 in 2017" ;
         p:hasRank   "98"^^xsd:int ;
@@ -8742,7 +8782,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :CityBogorIndonesia  rdf:type  :City ;
         rdfs:label   "Bogor" ;
@@ -8772,6 +8812,10 @@
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
         p:inCity                   :CityBarranquillaColombia .
+
+:CityAlEkirBahrain  rdf:type  :City ;
+        rdfs:label   "Al-Ekir" ;
+        p:inCountry  :CountryBahrain .
 
 :Q700758  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Universität des Saarlandes" ;
@@ -8892,7 +8936,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "9.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShanghaiChina(Mainland)> .
+        p:inCity                   :CityShanghaiChinaMainland .
 
 :2017R218  rdf:type  :Award ;
         rdfs:label  "Rank 218 in 2017" ;
@@ -9723,18 +9767,13 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "19.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShirazIran,IslamicRepublicof> .
+        p:inCity                   :CityShirazIranIslamicRepublicof .
 
 :2019R156  rdf:type  :Award ;
         rdfs:label  "Rank 156 in 2019" ;
         p:hasRank   "156"^^xsd:int ;
         p:hasScore  "48.7"^^xsd:double ;
         p:inYear    :2019 .
-
-:CitySt.GallenSwitzerland
-        rdf:type     :City ;
-        rdfs:label   "St. Gallen" ;
-        p:inCountry  :CountrySwitzerland .
 
 :Q1516684  rdf:type                :PublicUniversity ;
         rdfs:label                 "University of Kent" ;
@@ -9748,12 +9787,6 @@
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
         p:inCity                   :CityParisUnitedKingdom , :CityCanterburyUnitedKingdom .
-
-<http://qs.hocky.id/v/CountryChina(Mainland)>
-        rdf:type    :Country ;
-        rdfs:label  "China (Mainland)" ;
-        owl:sameAs  <http://www.wikidata.org/entity/Q148> ;
-        p:inRegion  :RegionAsia .
 
 :2021R380  rdf:type  :Award ;
         rdfs:label  "Rank 380 in 2021" ;
@@ -9903,7 +9936,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityTianjinChina(Mainland)> .
+        p:inCity                   :CityTianjinChinaMainland .
 
 :CitySplitCroatia  rdf:type  :City ;
         rdfs:label   "Split" ;
@@ -9997,6 +10030,11 @@
         p:hasScore  "50.4"^^xsd:double ;
         p:inYear    :2022 .
 
+:CityBeijingChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Beijing" ;
+        p:inCountry  :CountryChinaMainland .
+
 :CityEugeneUnitedStates
         rdf:type     :City ;
         rdfs:label   "Eugene" ;
@@ -10023,11 +10061,6 @@
         p:hasRank   "102"^^xsd:int ;
         p:hasScore  "58.9"^^xsd:double ;
         p:inYear    :2020 .
-
-<http://qs.hocky.id/v/CityHarbinChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Harbin" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :Q1547084  rdf:type                :PublicUniversity ;
         rdfs:label                 "University of Twente" ;
@@ -10129,7 +10162,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "8.0"^^xsd:double ;
-        p:inCity                   :CityWashingtonD.C.UnitedStates .
+        p:inCity                   :CityWashingtonDCUnitedStates .
 
 :Q3790133  rdf:type                :PublicUniversity ;
         rdfs:label                 "Universidade Federal de Santa Maria" ;
@@ -10193,7 +10226,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "9.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShanghaiChina(Mainland)> .
+        p:inCity                   :CityShanghaiChinaMainland .
 
 :2021R168  rdf:type  :Award ;
         rdfs:label  "Rank 168 in 2021" ;
@@ -10216,11 +10249,6 @@
         rdf:type     :City ;
         rdfs:label   "Potsdam" ;
         p:inCountry  :CountryUnitedStates .
-
-<http://qs.hocky.id/v/CityBirzeitPalestinianTerritory,Occupied>
-        rdf:type     :City ;
-        rdfs:label   "Birzeit" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryPalestinianTerritory,Occupied> .
 
 :2020R45  rdf:type  :Award ;
         rdfs:label  "Rank 45 in 2020" ;
@@ -10552,6 +10580,11 @@
         p:hasStudentFacultyRatio   "8.0"^^xsd:double ;
         p:inCity                   :CitySheffieldUnitedKingdom .
 
+:CityKelburnWellingtonNewZealand
+        rdf:type     :City ;
+        rdfs:label   "Kelburn, Wellington" ;
+        p:inCountry  :CountryNewZealand .
+
 :CityTaoyuanCityTaiwan
         rdf:type     :City ;
         rdfs:label   "Taoyuan City" ;
@@ -10574,11 +10607,6 @@
         p:hasRank   "61"^^xsd:int ;
         p:hasScore  "72.9"^^xsd:double ;
         p:inYear    :2018 .
-
-<http://qs.hocky.id/v/CityNankaiChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Nankai" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :CountryVietnam  rdf:type  :Country ;
         rdfs:label  "Vietnam" ;
@@ -10845,11 +10873,6 @@
         rdfs:label   "Cartagena" ;
         p:inCountry  :CountryColombia .
 
-:CityRostov-on-DonRussia
-        rdf:type     :City ;
-        rdfs:label   "Rostov-on-Don" ;
-        p:inCountry  :CountryRussia .
-
 :Q181177  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Cranfield University" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q181177> ;
@@ -10908,12 +10931,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "23.0"^^xsd:double ;
-        p:inCity                   :CityCluj-NapocaRomania .
-
-<http://qs.hocky.id/v/CityChangchunChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Changchun" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
+        p:inCity                   :CityClujNapocaRomania .
 
 :Q220144  rdf:type                 :PublicUniversity ;
         rdfs:label                 "SOAS University of London " ;
@@ -11097,7 +11115,7 @@
         p:hasLogo                  "https://www.topuniversities.com/sites/default/files/centralesuplec_173_small.jpg" ;
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "S" ;
-        p:inCity                   :CitySaint-AubinFrance .
+        p:inCity                   :CitySaintAubinFrance .
 
 :Q3267815  rdf:type                :PrivateUniversity ;
         rdfs:label                 "Bina Nusantara University (BINUS)" ;
@@ -11180,6 +11198,12 @@
         p:hasScore  "27.5"^^xsd:double ;
         p:inYear    :2022 .
 
+:2021R92  rdf:type  :Award ;
+        rdfs:label  "Rank 92 in 2021" ;
+        p:hasRank   "92"^^xsd:int ;
+        p:hasScore  "61.0"^^xsd:double ;
+        p:inYear    :2021 .
+
 :2020R442  rdf:type  :Award ;
         rdfs:label  "Rank 442 in 2020" ;
         p:hasRank   "442"^^xsd:int ;
@@ -11197,13 +11221,12 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "16.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityKelburn,WellingtonNewZealand> .
+        p:inCity                   :CityKelburnWellingtonNewZealand .
 
-:2021R92  rdf:type  :Award ;
-        rdfs:label  "Rank 92 in 2021" ;
-        p:hasRank   "92"^^xsd:int ;
-        p:hasScore  "61.0"^^xsd:double ;
-        p:inYear    :2021 .
+:CityWuhanChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Wuhan" ;
+        p:inCountry  :CountryChinaMainland .
 
 :CityTsukubaCityJapan
         rdf:type     :City ;
@@ -11471,6 +11494,11 @@
         p:hasScore  "32.0"^^xsd:double ;
         p:inYear    :2020 .
 
+:CityTehranIranIslamicRepublicof
+        rdf:type     :City ;
+        rdfs:label   "Tehran" ;
+        p:inCountry  :CountryIranIslamicRepublicof .
+
 :2019R348  rdf:type  :Award ;
         rdfs:label  "Rank 348 in 2019" ;
         p:hasRank   "348"^^xsd:int ;
@@ -11496,6 +11524,12 @@
         p:hasScore  "75.8"^^xsd:double , "75.9"^^xsd:double ;
         p:inYear    :2022 .
 
+:2021R50  rdf:type  :Award ;
+        rdfs:label  "Rank 50 in 2021" ;
+        p:hasRank   "50"^^xsd:int ;
+        p:hasScore  "73.6"^^xsd:double ;
+        p:inYear    :2021 .
+
 :2019R491  rdf:type  :Award ;
         rdfs:label  "Rank 491 in 2019" ;
         p:hasRank   "491"^^xsd:int ;
@@ -11517,11 +11551,10 @@
         owl:sameAs  <http://www.wikidata.org/entity/Q14773> ;
         p:inRegion  :RegionAsia .
 
-:2021R50  rdf:type  :Award ;
-        rdfs:label  "Rank 50 in 2021" ;
-        p:hasRank   "50"^^xsd:int ;
-        p:hasScore  "73.6"^^xsd:double ;
-        p:inYear    :2021 .
+:CitySuzhouChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Suzhou" ;
+        p:inCountry  :CountryChinaMainland .
 
 :2019R50  rdf:type  :Award ;
         rdfs:label  "Rank 50 in 2019" ;
@@ -12177,11 +12210,6 @@
 :CityCzechRepublic  rdf:type  :City ;
         p:inCountry  :CountryCzechRepublic .
 
-<http://qs.hocky.id/v/CityAbuDhabi,UnitedArabEmirates>
-        rdf:type     :City ;
-        rdfs:label   "Abu Dhabi," ;
-        p:inCountry  :CountryUnitedArabEmirates .
-
 :2020R225  rdf:type  :Award ;
         rdfs:label  "Rank 225 in 2020" ;
         p:hasRank   "225"^^xsd:int ;
@@ -12206,6 +12234,11 @@
         p:hasRank   "189"^^xsd:int ;
         p:hasScore  "45.5"^^xsd:double ;
         p:inYear    :2022 .
+
+:CityShirazIranIslamicRepublicof
+        rdf:type     :City ;
+        rdfs:label   "Shiraz" ;
+        p:inCountry  :CountryIranIslamicRepublicof .
 
 :2018R144  rdf:type  :Award ;
         rdfs:label  "Rank 144 in 2018" ;
@@ -12294,7 +12327,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityWuhanChina(Mainland)> .
+        p:inCity                   :CityWuhanChinaMainland .
 
 :Q265866  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Universidad Nacional del Litoral" ;
@@ -12333,7 +12366,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "9.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityHarbinChina(Mainland)> .
+        p:inCity                   :CityHarbinChinaMainland .
 
 :Q168000  rdf:type                 :PrivateUniversity ;
         rdfs:label                 "American University" ;
@@ -12346,7 +12379,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   :CityWashingtonD.C.UnitedStates .
+        p:inCity                   :CityWashingtonDCUnitedStates .
 
 :2022R81  rdf:type  :Award ;
         rdfs:label  "Rank 81 in 2022" ;
@@ -12423,11 +12456,6 @@
         p:hasRank   "26"^^xsd:int ;
         p:hasScore  "85.7"^^xsd:double ;
         p:inYear    :2017 .
-
-<http://qs.hocky.id/v/CityWuhanChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Wuhan" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :Q322668  rdf:type                 :PublicUniversity ;
         rdfs:label                 "German Jordanian University" ;
@@ -13378,7 +13406,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
-        p:inCity                   :CityMaslak-IstanbulTurkey .
+        p:inCity                   :CityMaslakIstanbulTurkey .
 
 :CityNewDelhiIndia  rdf:type  :City ;
         rdfs:label   "New Delhi" ;
@@ -13424,20 +13452,15 @@
         rdfs:label   "Seri Iskandar" ;
         p:inCountry  :CountryMalaysia .
 
-:CityLaSerenaChile  rdf:type  :City ;
-        rdfs:label   "La Serena" ;
-        p:inCountry  :CountryChile .
-
 :2021R223  rdf:type  :Award ;
         rdfs:label  "Rank 223 in 2021" ;
         p:hasRank   "223"^^xsd:int ;
         p:hasScore  "40.0"^^xsd:double ;
         p:inYear    :2021 .
 
-<http://qs.hocky.id/v/CityHefeiChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Hefei" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
+:CityLaSerenaChile  rdf:type  :City ;
+        rdfs:label   "La Serena" ;
+        p:inCountry  :CountryChile .
 
 :2017R172  rdf:type  :Award ;
         rdfs:label  "Rank 172 in 2017" ;
@@ -13456,7 +13479,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CitySt.John'sCanada> .
+        p:inCity                   :CityStJohnsCanada .
 
 :2021R138  rdf:type  :Award ;
         rdfs:label  "Rank 138 in 2021" ;
@@ -13585,7 +13608,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "7.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityHangzhouChina(Mainland)> .
+        p:inCity                   :CityHangzhouChinaMainland .
 
 :2019R121  rdf:type  :Award ;
         rdfs:label  "Rank 121 in 2019" ;
@@ -13623,7 +13646,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "6.0"^^xsd:double ;
-        p:inCity                   :CitySt.PetersburgRussia .
+        p:inCity                   :CityStPetersburgRussia .
 
 :Q2065666  rdf:type                :PublicUniversity ;
         rdfs:label                 "University of the Arts London" ;
@@ -13781,11 +13804,6 @@
         p:hasScore  "73.6"^^xsd:double ;
         p:inYear    :2020 .
 
-:CitySt.LouisUnitedStates
-        rdf:type     :City ;
-        rdfs:label   "St. Louis" ;
-        p:inCountry  :CountryUnitedStates .
-
 :CityLeicesterUnitedKingdom
         rdf:type     :City ;
         rdfs:label   "Leicester" ;
@@ -13824,7 +13842,7 @@
         p:hasResearchOutput        :Medium ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   :CityNur-SultanKazakhstan .
+        p:inCity                   :CityNurSultanKazakhstan .
 
 :Q1136919  rdf:type                :PublicUniversity ;
         rdfs:label                 "Iowa State University" ;
@@ -13904,6 +13922,11 @@
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "7.0"^^xsd:double ;
         p:inCity                   :CityDiepenbeekBelgium .
+
+:CityWinstonSalemUnitedStates
+        rdf:type     :City ;
+        rdfs:label   "Winston-Salem" ;
+        p:inCountry  :CountryUnitedStates .
 
 :CountryCostaRica  rdf:type  :Country ;
         rdfs:label  "Costa Rica" ;
@@ -14000,7 +14023,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "12.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityXi'anChina(Mainland)> .
+        p:inCity                   :CityXianChinaMainland .
 
 :Q1814765  rdf:type                :PublicUniversity ;
         rdfs:label                 "Indian Institute of Technology Bhubaneswar" ;
@@ -14071,11 +14094,6 @@
         rdf:type     :City ;
         rdfs:label   "Guayana City" ;
         p:inCountry  :CountryVenezuela .
-
-:CityNur-SultanKazakhstan
-        rdf:type     :City ;
-        rdfs:label   "Nur-Sultan" ;
-        p:inCountry  :CountryKazakhstan .
 
 :2020R511to520  rdf:type  :Award ;
         rdfs:label  "Rank 511-520 in 2020" ;
@@ -14462,17 +14480,22 @@
         owl:sameAs  <http://www.wikidata.org/entity/Q810> ;
         p:inRegion  :RegionAsia .
 
+:2022R403  rdf:type  :Award ;
+        rdfs:label  "Rank 403 in 2022" ;
+        p:hasRank   "403"^^xsd:int ;
+        p:hasScore  "27.9"^^xsd:double ;
+        p:inYear    :2022 .
+
 :2021R83  rdf:type  :Award ;
         rdfs:label  "Rank 83 in 2021" ;
         p:hasRank   "83"^^xsd:int ;
         p:hasScore  "63.3"^^xsd:double ;
         p:inYear    :2021 .
 
-:2022R403  rdf:type  :Award ;
-        rdfs:label  "Rank 403 in 2022" ;
-        p:hasRank   "403"^^xsd:int ;
-        p:hasScore  "27.9"^^xsd:double ;
-        p:inYear    :2022 .
+:CityBirzeitPalestinianTerritoryOccupied
+        rdf:type     :City ;
+        rdfs:label   "Birzeit" ;
+        p:inCountry  :CountryPalestinianTerritoryOccupied .
 
 :Q1758009  rdf:type                :PublicUniversity ;
         rdfs:label                 "UNIVERSITY OF GDANSK" ;
@@ -14545,7 +14568,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "6.0"^^xsd:double ;
-        p:inCity                   :CitySt.PetersburgRussia .
+        p:inCity                   :CityStPetersburgRussia .
 
 :Q374457  rdf:type                 :PrivateUniversity ;
         rdfs:label                 "Sogang University" ;
@@ -14699,6 +14722,10 @@
         p:hasScore  "32.7"^^xsd:double ;
         p:inYear    :2020 .
 
+:CityBeerShevaIsrael  rdf:type  :City ;
+        rdfs:label   "Be'er Sheva" ;
+        p:inCountry  :CountryIsrael .
+
 :Q534515  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Universitas Indonesia" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q534515> ;
@@ -14766,11 +14793,6 @@
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "8.0"^^xsd:double ;
         p:inCity                   :CityTurkuFinland .
-
-<http://qs.hocky.id/v/CityXiamenChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Xiamen" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :2021R41  rdf:type  :Award ;
         rdfs:label  "Rank 41 in 2021" ;
@@ -14881,7 +14903,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityNanjingChina(Mainland)> .
+        p:inCity                   :CityNanjingChinaMainland .
 
 :2018R2  rdf:type   :Award ;
         rdfs:label  "Rank 2 in 2018" ;
@@ -14932,11 +14954,6 @@
         p:hasScore  "25.3"^^xsd:double ;
         p:inYear    :2019 .
 
-<http://qs.hocky.id/v/CitySt.John'sCanada>
-        rdf:type     :City ;
-        rdfs:label   "St. John's" ;
-        p:inCountry  :CountryCanada .
-
 :CityMeridaVenezuela  rdf:type  :City ;
         rdfs:label   "Merida" ;
         p:inCountry  :CountryVenezuela .
@@ -14952,7 +14969,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityLanzhouChina(Mainland)> .
+        p:inCity                   :CityLanzhouChinaMainland .
 
 :CityIrvineUnitedStates
         rdf:type     :City ;
@@ -15479,6 +15496,11 @@
         p:hasStudentFacultyRatio   "10.0"^^xsd:double ;
         p:inCity                   :CityCollegeParkUnitedStates .
 
+:CityLanzhouChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Lanzhou" ;
+        p:inCountry  :CountryChinaMainland .
+
 :2018R135  rdf:type  :Award ;
         rdfs:label  "Rank 135 in 2018" ;
         p:hasRank   "135"^^xsd:int ;
@@ -15584,7 +15606,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "S" ;
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityAlAin,UnitedArabEmirates> .
+        p:inCity                   :CityAlAinUnitedArabEmirates .
 
 :2020R274  rdf:type  :Award ;
         rdfs:label  "Rank 274 in 2020" ;
@@ -15659,7 +15681,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBe'erShevaIsrael> .
+        p:inCity                   :CityBeerShevaIsrael .
 
 :2020R189  rdf:type  :Award ;
         rdfs:label  "Rank 189 in 2020" ;
@@ -15722,6 +15744,11 @@
         p:hasRank   "7"^^xsd:int ;
         p:hasScore  "97.3"^^xsd:double ;
         p:inYear    :2022 .
+
+:CityXiamenChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Xiamen" ;
+        p:inCountry  :CountryChinaMainland .
 
 :2017R17  rdf:type  :Award ;
         rdfs:label  "Rank 17 in 2017" ;
@@ -15991,11 +16018,6 @@
         p:hasScore  "56.7"^^xsd:double ;
         p:inYear    :2022 .
 
-:CitySt.CatharinesCanada
-        rdf:type     :City ;
-        rdfs:label   "St. Catharines" ;
-        p:inCountry  :CountryCanada .
-
 :2017R189  rdf:type  :Award ;
         rdfs:label  "Rank 189 in 2017" ;
         p:hasRank   "189"^^xsd:int ;
@@ -16126,11 +16148,6 @@
         p:hasRank   "33"^^xsd:int ;
         p:hasScore  "79.9"^^xsd:double ;
         p:inYear    :2017 .
-
-<http://qs.hocky.id/v/CityMu'tahJordan>
-        rdf:type     :City ;
-        rdfs:label   "Mu'tah" ;
-        p:inCountry  :CountryJordan .
 
 :2017R168  rdf:type  :Award ;
         rdfs:label  "Rank 168 in 2017" ;
@@ -16426,7 +16443,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShanghaiChina(Mainland)> .
+        p:inCity                   :CityShanghaiChinaMainland .
 
 :CityDolgoprudnyRussia
         rdf:type     :City ;
@@ -16522,7 +16539,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :2019R154  rdf:type  :Award ;
         rdfs:label  "Rank 154 in 2019" ;
@@ -16696,7 +16713,7 @@
         p:hasResearchOutput        :Medium ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :2020R85  rdf:type  :Award ;
         rdfs:label  "Rank 85 in 2020" ;
@@ -16720,7 +16737,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :CityLosAngelesUnitedStates
         rdf:type     :City ;
@@ -16764,7 +16781,7 @@
         p:hasResearchOutput        :Medium , :VeryHigh ;
         p:hasSize                  "XL" , "L" ;
         p:hasStudentFacultyRatio   "21.0"^^xsd:double , "13.0"^^xsd:double ;
-        p:inCity                   :CityTaipeiCityTaiwan , <http://qs.hocky.id/v/CitySuzhouChina(Mainland)> .
+        p:inCity                   :CityTaipeiCityTaiwan , :CitySuzhouChinaMainland .
 
 :2021R272  rdf:type  :Award ;
         rdfs:label  "Rank 272 in 2021" ;
@@ -16783,7 +16800,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "10.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityChangchunChina(Mainland)> .
+        p:inCity                   :CityChangchunChinaMainland .
 
 :2020R571to580  rdf:type  :Award ;
         rdfs:label  "Rank 571-580 in 2020" ;
@@ -16968,11 +16985,6 @@
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
         p:inCity                   :CityBusanSouthKorea .
 
-:CityCluj-NapocaRomania
-        rdf:type     :City ;
-        rdfs:label   "Cluj-Napoca" ;
-        p:inCountry  :CountryRomania .
-
 :CityRabatMorocco  rdf:type  :City ;
         rdfs:label   "Rabat" ;
         p:inCountry  :CountryMorocco .
@@ -17019,7 +17031,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShanghaiChina(Mainland)> .
+        p:inCity                   :CityShanghaiChinaMainland .
 
 :2020R601to650  rdf:type  :Award ;
         rdfs:label  "Rank 601-650 in 2020" ;
@@ -17132,7 +17144,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "16.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityTehranIran,IslamicRepublicof> .
+        p:inCity                   :CityTehranIranIslamicRepublicof .
 
 :Q1329478  rdf:type                :PublicUniversity ;
         rdfs:label                 "Czech Technical University in Prague" ;
@@ -17369,11 +17381,6 @@
 :CitySouthKorea  rdf:type  :City ;
         p:inCountry  :CountrySouthKorea .
 
-<http://qs.hocky.id/v/CityGuangzhouChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Guangzhou" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
-
 :Q742494  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Tomsk State University" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q742494> ;
@@ -17448,7 +17455,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "17.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CitySuzhouChina(Mainland)> .
+        p:inCity                   :CitySuzhouChinaMainland .
 
 :CityCachanFrance  rdf:type  :City ;
         rdfs:label   "Cachan" ;
@@ -17507,6 +17514,11 @@
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "21.0"^^xsd:double ;
         p:inCity                   :CityHermosilloMexico .
+
+:CityShenzhenChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Shenzhen" ;
+        p:inCountry  :CountryChinaMainland .
 
 :Q29052  rdf:type                  :PrivateUniversity ;
         rdfs:label                 "Vanderbilt University" ;
@@ -17605,25 +17617,14 @@
         p:hasStudentFacultyRatio   "12.0"^^xsd:double ;
         p:inCity                   :CityBeirutLebanon .
 
-:2022R561to570  rdf:type  :Award ;
-        rdfs:label  "Rank 561-570 in 2022" ;
-        p:hasRank   "561-570"^^xsd:int ;
-        p:inYear    :2022 .
-
-:2021R74  rdf:type  :Award ;
-        rdfs:label  "Rank 74 in 2021" ;
-        p:hasRank   "74"^^xsd:int ;
-        p:hasScore  "65.9"^^xsd:double ;
-        p:inYear    :2021 .
-
 :CityKingstonCanada  rdf:type  :City ;
         rdfs:label   "Kingston" ;
         p:inCountry  :CountryCanada .
 
-<http://qs.hocky.id/v/CityShirazIran,IslamicRepublicof>
-        rdf:type     :City ;
-        rdfs:label   "Shiraz" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryIran,IslamicRepublicof> .
+:2022R561to570  rdf:type  :Award ;
+        rdfs:label  "Rank 561-570 in 2022" ;
+        p:hasRank   "561-570"^^xsd:int ;
+        p:inYear    :2022 .
 
 :2020R651to700  rdf:type  :Award ;
         rdfs:label  "Rank 651-700 in 2020" ;
@@ -17649,10 +17650,11 @@
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
         p:inCity                   :CityBogotaColombia .
 
-:CitySt.PetersburgRussia
-        rdf:type     :City ;
-        rdfs:label   "St. Petersburg" ;
-        p:inCountry  :CountryRussia .
+:2021R74  rdf:type  :Award ;
+        rdfs:label  "Rank 74 in 2021" ;
+        p:hasRank   "74"^^xsd:int ;
+        p:hasScore  "65.9"^^xsd:double ;
+        p:inYear    :2021 .
 
 :2022R388  rdf:type  :Award ;
         rdfs:label  "Rank 388 in 2022" ;
@@ -17808,6 +17810,11 @@
         rdfs:label   "Palermo" ;
         p:inCountry  :CountryItaly .
 
+:CityStAndrewsUnitedKingdom
+        rdf:type     :City ;
+        rdfs:label   "St. Andrews" ;
+        p:inCountry  :CountryUnitedKingdom .
+
 :Q3070702  rdf:type                :PublicUniversity ;
         rdfs:label                 "King Faisal University" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q3070702> ;
@@ -17909,7 +17916,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   :CityRostov-on-DonRussia .
+        p:inCity                   :CityRostovonDonRussia .
 
 :2022R346  rdf:type  :Award ;
         rdfs:label  "Rank 346 in 2022" ;
@@ -17964,7 +17971,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :Q914024  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Yokohama City University" ;
@@ -18239,6 +18246,11 @@
         owl:sameAs  <http://www.wikidata.org/entity/Q219> ;
         p:inRegion  :RegionEurope .
 
+:CityStCatharinesCanada
+        rdf:type     :City ;
+        rdfs:label   "St. Catharines" ;
+        p:inCountry  :CountryCanada .
+
 :2022R219  rdf:type  :Award ;
         rdfs:label  "Rank 219 in 2022" ;
         p:hasRank   "219"^^xsd:int ;
@@ -18298,7 +18310,7 @@
         p:hasResearchOutput        :Medium ;
         p:hasSize                  "S" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   :CityAl-EkirBahrain .
+        p:inCity                   :CityAlEkirBahrain .
 
 :Q835440  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Universität Konstanz" ;
@@ -18521,15 +18533,15 @@
         rdfs:label   "Chippendale" ;
         p:inCountry  :CountryAustralia .
 
-<http://qs.hocky.id/v/CityJerusalemPalestinianTerritory,Occupied>
-        rdf:type     :City ;
-        rdfs:label   "Jerusalem" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryPalestinianTerritory,Occupied> .
-
 :CityHullUnitedKingdom
         rdf:type     :City ;
         rdfs:label   "Hull" ;
         p:inCountry  :CountryUnitedKingdom .
+
+:CityNurSultanKazakhstan
+        rdf:type     :City ;
+        rdfs:label   "Nur-Sultan" ;
+        p:inCountry  :CountryKazakhstan .
 
 :2021R379  rdf:type  :Award ;
         rdfs:label  "Rank 379 in 2021" ;
@@ -18582,12 +18594,6 @@
 
 :Veryhigh  rdf:type  :ResearchOutput ;
         rdf:label  "Very high" .
-
-<http://qs.hocky.id/v/CountryPalestinianTerritory,Occupied>
-        rdf:type    :Country ;
-        rdfs:label  "Palestinian Territory, Occupied" ;
-        owl:sameAs  <http://www.wikidata.org/entity/Q219060> ;
-        p:inRegion  :RegionAsia .
 
 :CityChiangMaiThailand
         rdf:type     :City ;
@@ -18811,7 +18817,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "10.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :2018R105  rdf:type  :Award ;
         rdfs:label  "Rank 105 in 2018" ;
@@ -19147,7 +19153,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "29.0"^^xsd:double ;
-        p:inCity                   :CitySt.CatharinesCanada .
+        p:inCity                   :CityStCatharinesCanada .
 
 :CityBajaCaliforniaMexico
         rdf:type     :City ;
@@ -19308,6 +19314,12 @@
         rdfs:label   "Sydney" ;
         p:inCountry  :CountryAustralia .
 
+:2017R24  rdf:type  :Award ;
+        rdfs:label  "Rank 24 in 2017" ;
+        p:hasRank   "24"^^xsd:int ;
+        p:hasScore  "86.0"^^xsd:double ;
+        p:inYear    :2017 .
+
 :Q7267062  rdf:type                :PublicUniversity ;
         rdfs:label                 "Qassim University" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q7267062> ;
@@ -19321,26 +19333,10 @@
         p:hasStudentFacultyRatio   "12.0"^^xsd:double ;
         p:inCity                   :CityBuraydahSaudiArabia .
 
-:2017R24  rdf:type  :Award ;
-        rdfs:label  "Rank 24 in 2017" ;
-        p:hasRank   "24"^^xsd:int ;
-        p:hasScore  "86.0"^^xsd:double ;
-        p:inYear    :2017 .
-
 :CityBexleyheathUnitedKingdom
         rdf:type     :City ;
         rdfs:label   "Bexleyheath" ;
         p:inCountry  :CountryUnitedKingdom .
-
-<http://qs.hocky.id/v/CityTehranIran,IslamicRepublicof>
-        rdf:type     :City ;
-        rdfs:label   "Tehran" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryIran,IslamicRepublicof> .
-
-<http://qs.hocky.id/v/CityChengduChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Chengdu" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :Q245247  rdf:type                 :PublicUniversity ;
         rdfs:label                 "King's College London" ;
@@ -19441,7 +19437,7 @@
         p:hasResearchOutput        :Medium ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "22.0"^^xsd:double ;
-        p:inCity                   :CityAs-SaltJordan .
+        p:inCity                   :CityAsSaltJordan .
 
 :CityChile  rdf:type  :City ;
         p:inCountry  :CountryChile .
@@ -19491,6 +19487,12 @@
         rdfs:label   "Kaliningrad" ;
         p:inCountry  :CountryRussia .
 
+:2022R124  rdf:type  :Award ;
+        rdfs:label  "Rank 124 in 2022" ;
+        p:hasRank   "124"^^xsd:int ;
+        p:hasScore  "55.4"^^xsd:double ;
+        p:inYear    :2022 .
+
 :CityIasiRomania  rdf:type  :City ;
         rdfs:label   "Iași" ;
         p:inCountry  :CountryRomania .
@@ -19501,11 +19503,10 @@
         p:hasScore  "49.0"^^xsd:double ;
         p:inYear    :2020 .
 
-:2022R124  rdf:type  :Award ;
-        rdfs:label  "Rank 124 in 2022" ;
-        p:hasRank   "124"^^xsd:int ;
-        p:hasScore  "55.4"^^xsd:double ;
-        p:inYear    :2022 .
+:CityHualienCityTaiwan
+        rdf:type     :City ;
+        rdfs:label   "Hualien City" ;
+        p:inCountry  :CountryTaiwan .
 
 :2017R61  rdf:type  :Award ;
         rdfs:label  "Rank 61 in 2017" ;
@@ -19513,15 +19514,15 @@
         p:hasScore  "72.2"^^xsd:double ;
         p:inYear    :2017 .
 
-:CityHualienCityTaiwan
-        rdf:type     :City ;
-        rdfs:label   "Hualien City" ;
-        p:inCountry  :CountryTaiwan .
-
 :CitySouthamptonUnitedKingdom
         rdf:type     :City ;
         rdfs:label   "Southampton" ;
         p:inCountry  :CountryUnitedKingdom .
+
+:CityWashingtonDCUnitedStates
+        rdf:type     :City ;
+        rdfs:label   "Washington D.C." ;
+        p:inCountry  :CountryUnitedStates .
 
 :CityBochumGermany  rdf:type  :City ;
         rdfs:label   "Bochum" ;
@@ -19715,12 +19716,7 @@
         p:hasResearchOutput        :Medium ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "18.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityNablusPalestinianTerritory,Occupied> .
-
-<http://qs.hocky.id/v/CityAlAin,UnitedArabEmirates>
-        rdf:type     :City ;
-        rdfs:label   "Al Ain," ;
-        p:inCountry  :CountryUnitedArabEmirates .
+        p:inCity                   :CityNablusPalestinianTerritoryOccupied .
 
 :2020R97  rdf:type  :Award ;
         rdfs:label  "Rank 97 in 2020" ;
@@ -19777,11 +19773,6 @@
         p:hasRank   "284"^^xsd:int ;
         p:hasScore  "35.1"^^xsd:double ;
         p:inYear    :2021 .
-
-<http://qs.hocky.id/v/CityColombo,SriLanka>
-        rdf:type     :City ;
-        rdfs:label   "Colombo," ;
-        p:inCountry  :CountrySriLanka .
 
 :CityNicosiaCyprus  rdf:type  :City ;
         rdfs:label   "Nicosia" ;
@@ -19974,12 +19965,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "12.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityXiamenChina(Mainland)> .
-
-<http://qs.hocky.id/v/CityNanjingChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Nanjing" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
+        p:inCity                   :CityXiamenChinaMainland .
 
 :Q1851075  rdf:type                :PublicUniversity ;
         rdfs:label                 "Universidade Federal de Santa Catarina " ;
@@ -20180,7 +20166,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "22.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityTehranIran,IslamicRepublicof> .
+        p:inCity                   :CityTehranIranIslamicRepublicof .
 
 :2018R34  rdf:type  :Award ;
         rdfs:label  "Rank 34 in 2018" ;
@@ -20271,7 +20257,7 @@
 
 :CityAlAinUnitedArabEmirates
         rdf:type     :City ;
-        rdfs:label   "Al Ain" ;
+        rdfs:label   "Al Ain," , "Al Ain" ;
         p:inCountry  :CountryUnitedArabEmirates .
 
 :Q4748684  rdf:type                :PrivateUniversity ;
@@ -20634,7 +20620,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "12.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :Q135436  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Ecole normale supérieure, Paris" ;
@@ -21003,7 +20989,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "10.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :CitySantaCruzUnitedStates
         rdf:type     :City ;
@@ -21112,6 +21098,12 @@
         p:hasScore  "30.9"^^xsd:double ;
         p:inYear    :2022 .
 
+:2021R44  rdf:type  :Award ;
+        rdfs:label  "Rank 44 in 2021" ;
+        p:hasRank   "44"^^xsd:int ;
+        p:hasScore  "75.4"^^xsd:double ;
+        p:inYear    :2021 .
+
 :Q766145  rdf:type                 :PublicUniversity ;
         rdfs:label                 "University of Oregon" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q766145> ;
@@ -21125,11 +21117,11 @@
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
         p:inCity                   :CityEugeneUnitedStates .
 
-:2021R44  rdf:type  :Award ;
-        rdfs:label  "Rank 44 in 2021" ;
-        p:hasRank   "44"^^xsd:int ;
-        p:hasScore  "75.4"^^xsd:double ;
-        p:inYear    :2021 .
+:CountryIranIslamicRepublicof
+        rdf:type    :Country ;
+        rdfs:label  "Iran, Islamic Republic of" ;
+        owl:sameAs  <http://www.wikidata.org/entity/Q794> ;
+        p:inRegion  :RegionAsia .
 
 :CityRiyadhSaudiArabia
         rdf:type     :City ;
@@ -21342,7 +21334,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "17.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityGuangzhouChina(Mainland)> .
+        p:inCity                   :CityGuangzhouChinaMainland .
 
 :2022R480  rdf:type  :Award ;
         rdfs:label  "Rank 480 in 2022" ;
@@ -21412,12 +21404,6 @@
         p:hasScore  "31.6"^^xsd:double ;
         p:inYear    :2020 .
 
-:2022R316  rdf:type  :Award ;
-        rdfs:label  "Rank 316 in 2022" ;
-        p:hasRank   "316"^^xsd:int ;
-        p:hasScore  "33.5"^^xsd:double ;
-        p:inYear    :2022 .
-
 :Q316595  rdf:type           :PrivateUniversity ;
         rdfs:label           "WHU - Otto Beisheim School of Management " ;
         owl:sameAs           <http://www.wikidata.org/entity/Q316595> ;
@@ -21428,10 +21414,11 @@
         p:hasSize            "S" ;
         p:inCity             :CityVallendarGermany .
 
-<http://qs.hocky.id/v/CityShenzhenChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Shenzhen" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
+:2022R316  rdf:type  :Award ;
+        rdfs:label  "Rank 316 in 2022" ;
+        p:hasRank   "316"^^xsd:int ;
+        p:hasScore  "33.5"^^xsd:double ;
+        p:inYear    :2022 .
 
 :Q336264  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Kyoto University" ;
@@ -21564,6 +21551,10 @@
 :CityEgypt  rdf:type  :City ;
         p:inCountry  :CountryEgypt .
 
+:CityStJohnsCanada  rdf:type  :City ;
+        rdfs:label   "St. John's" ;
+        p:inCountry  :CountryCanada .
+
 :Q2749558  rdf:type                :PublicUniversity ;
         rdfs:label                 "Universidade Federal do Ceará (UFC)" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q2749558> ;
@@ -21619,7 +21610,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "8.0"^^xsd:double ;
-        p:inCity                   :CitySt.AndrewsUnitedKingdom .
+        p:inCity                   :CityStAndrewsUnitedKingdom .
 
 :CityKampalaUganda  rdf:type  :City ;
         rdfs:label   "Kampala" ;
@@ -21899,6 +21890,12 @@
         rdfs:label   "East Lansing" ;
         p:inCountry  :CountryUnitedStates .
 
+:CountryChinaMainland
+        rdf:type    :Country ;
+        rdfs:label  "China (Mainland)" ;
+        owl:sameAs  <http://www.wikidata.org/entity/Q148> ;
+        p:inRegion  :RegionAsia .
+
 :Q2503794  rdf:type                :PublicUniversity ;
         rdfs:label                 "Northumbria University at Newcastle" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q2503794> ;
@@ -22015,6 +22012,12 @@
         p:hasScore  "33.2"^^xsd:double ;
         p:inYear    :2020 .
 
+:CountryPalestinianTerritoryOccupied
+        rdf:type    :Country ;
+        rdfs:label  "Palestinian Territory, Occupied" ;
+        owl:sameAs  <http://www.wikidata.org/entity/Q219060> ;
+        p:inRegion  :RegionAsia .
+
 :2022R284  rdf:type  :Award ;
         rdfs:label  "Rank 284 in 2022" ;
         p:hasRank   "284"^^xsd:int ;
@@ -22090,11 +22093,6 @@
         p:hasRank   "199"^^xsd:int ;
         p:hasScore  "44.2"^^xsd:double ;
         p:inYear    :2022 .
-
-<http://qs.hocky.id/v/CitySuzhouChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Suzhou" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :Q1474656  rdf:type                :PublicUniversity ;
         rdfs:label                 "Athens University of Economics and Business" ;
@@ -22560,11 +22558,6 @@
         p:hasScore  "37.0"^^xsd:double ;
         p:inYear    :2019 .
 
-<http://qs.hocky.id/v/CityLanzhouChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Lanzhou" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
-
 :CityMiamiUnitedStates
         rdf:type     :City ;
         rdfs:label   "Miami" ;
@@ -22616,6 +22609,11 @@
         p:hasRank   "178"^^xsd:int ;
         p:hasScore  "46.2"^^xsd:double ;
         p:inYear    :2019 .
+
+:CityGuangzhouChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Guangzhou" ;
+        p:inCountry  :CountryChinaMainland .
 
 :2017R129  rdf:type  :Award ;
         rdfs:label  "Rank 129 in 2017" ;
@@ -22698,7 +22696,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityChangshaChina(Mainland)> .
+        p:inCity                   :CityChangshaChinaMainland .
 
 :Q1434547  rdf:type                :PublicUniversity ;
         rdfs:label                 "Loughborough University" ;
@@ -22730,11 +22728,6 @@
 
 :CityArmenia  rdf:type  :City ;
         p:inCountry  :CountryArmenia .
-
-<http://qs.hocky.id/v/CityChongqingChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Chongqing" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :Q41085  rdf:type                  :PrivateUniversity ;
         rdfs:label                 "Sungkyunkwan University(SKKU)" , "Sungkyunkwan University (SKKU)" ;
@@ -22785,7 +22778,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShanghaiChina(Mainland)> .
+        p:inCity                   :CityShanghaiChinaMainland .
 
 :CityTomskRussia  rdf:type  :City ;
         rdfs:label   "Tomsk" ;
@@ -22896,7 +22889,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityNanjingChina(Mainland)> .
+        p:inCity                   :CityNanjingChinaMainland .
 
 :Q1687025  rdf:type                :PrivateUniversity ;
         rdfs:label                 "Universidad Pontificia Comillas" ;
@@ -23350,7 +23343,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "9.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityXi'anChina(Mainland)> .
+        p:inCity                   :CityXianChinaMainland .
 
 :CityOrlandoUnitedStates
         rdf:type     :City ;
@@ -23613,6 +23606,11 @@
         rdfs:label   "Yogyakarta" ;
         p:inCountry  :CountryIndonesia .
 
+:CityStGallenSwitzerland
+        rdf:type     :City ;
+        rdfs:label   "St. Gallen" ;
+        p:inCountry  :CountrySwitzerland .
+
 :Q4208096  rdf:type                :PublicUniversity ;
         rdfs:label                 "Kazakh National Agrarian University KazNAU" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q4208096> ;
@@ -23819,7 +23817,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "19.0"^^xsd:double ;
-        p:inCity                   :CityLouvain-la-NeuveBelgium .
+        p:inCity                   :CityLouvainlaNeuveBelgium .
 
 :2021R98  rdf:type  :Award ;
         rdfs:label  "Rank 98 in 2021" ;
@@ -24010,7 +24008,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "7.0"^^xsd:double ;
-        p:inCity                   :CitySt.PetersburgRussia .
+        p:inCity                   :CityStPetersburgRussia .
 
 :CityPardubiceCzechRepublic
         rdf:type     :City ;
@@ -24267,6 +24265,11 @@
         rdfs:label   "Modena" ;
         p:inCountry  :CountryItaly .
 
+:CitySaintAubinFrance
+        rdf:type     :City ;
+        rdfs:label   "Saint-Aubin" ;
+        p:inCountry  :CountryFrance .
+
 :Q478044  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Universitas Hasanuddin" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q478044> ;
@@ -24485,7 +24488,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "12.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :2022R386  rdf:type  :Award ;
         rdfs:label  "Rank 386 in 2022" ;
@@ -25147,7 +25150,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "5.0"^^xsd:double ;
-        p:inCity                   :CityNur-SultanKazakhstan .
+        p:inCity                   :CityNurSultanKazakhstan .
 
 :Q762266  rdf:type                 :PublicUniversity ;
         rdfs:label                 "City University of New York" ;
@@ -25393,7 +25396,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   :CityDubaiUnitedArabEmirates , <http://qs.hocky.id/v/CityAbuDhabi,UnitedArabEmirates> .
+        p:inCity                   :CityDubaiUnitedArabEmirates , :CityAbuDhabiUnitedArabEmirates .
 
 :2022R45  rdf:type  :Award ;
         rdfs:label  "Rank 45 in 2022" ;
@@ -25447,6 +25450,11 @@
         p:hasScore  "36.5"^^xsd:double ;
         p:inYear    :2022 .
 
+:2021R501to510  rdf:type  :Award ;
+        rdfs:label  "Rank 501-510 in 2021" ;
+        p:hasRank   "501-510"^^xsd:int ;
+        p:inYear    :2021 .
+
 :2020R311  rdf:type  :Award ;
         rdfs:label  "Rank 311 in 2020" ;
         p:hasRank   "311"^^xsd:int ;
@@ -25457,24 +25465,6 @@
         rdfs:label  "Rank 541-550 in 2019" ;
         p:hasRank   "541-550"^^xsd:int ;
         p:inYear    :2019 .
-
-:2021R501to510  rdf:type  :Award ;
-        rdfs:label  "Rank 501-510 in 2021" ;
-        p:hasRank   "501-510"^^xsd:int ;
-        p:inYear    :2021 .
-
-:Q2096395  rdf:type                :PrivateUniversity ;
-        rdfs:label                 "Universiti Teknologi PETRONAS (UTP)" ;
-        owl:sameAs                 <http://www.wikidata.org/entity/Q2096395> ;
-        p:hasAwards                :2020R482 , :2021R439 , :2017R601to650 , :2022R414 , :2019R521to530 , :2018R601to650 ;
-        p:hasFaculty               "438"^^xsd:int ;
-        p:hasInternationalStudent  "639"^^xsd:int ;
-        p:hasLink                  "https://www.topuniversities.com/universities/universiti-teknologi-petronas-utp" ;
-        p:hasLogo                  "https://www.topuniversities.com/sites/default/files/universiti-teknologi-petronas-utp_592560cf2aeae70239af4ef2_small.jpg" ;
-        p:hasResearchOutput        :VeryHigh ;
-        p:hasSize                  "M" ;
-        p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   :CitySeriIskandarMalaysia .
 
 :Q7896057  rdf:type                :PrivateUniversity ;
         rdfs:label                 "Universidad de Palermo (UP)" ;
@@ -25489,11 +25479,29 @@
         p:hasStudentFacultyRatio   "6.0"^^xsd:double ;
         p:inCity                   :CityBuenosAiresArgentina .
 
+:Q2096395  rdf:type                :PrivateUniversity ;
+        rdfs:label                 "Universiti Teknologi PETRONAS (UTP)" ;
+        owl:sameAs                 <http://www.wikidata.org/entity/Q2096395> ;
+        p:hasAwards                :2020R482 , :2021R439 , :2017R601to650 , :2022R414 , :2019R521to530 , :2018R601to650 ;
+        p:hasFaculty               "438"^^xsd:int ;
+        p:hasInternationalStudent  "639"^^xsd:int ;
+        p:hasLink                  "https://www.topuniversities.com/universities/universiti-teknologi-petronas-utp" ;
+        p:hasLogo                  "https://www.topuniversities.com/sites/default/files/universiti-teknologi-petronas-utp_592560cf2aeae70239af4ef2_small.jpg" ;
+        p:hasResearchOutput        :VeryHigh ;
+        p:hasSize                  "M" ;
+        p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
+        p:inCity                   :CitySeriIskandarMalaysia .
+
 :2018R230  rdf:type  :Award ;
         rdfs:label  "Rank 230 in 2018" ;
         p:hasRank   "230"^^xsd:int ;
         p:hasScore  "43.4"^^xsd:double ;
         p:inYear    :2018 .
+
+:CityHangzhouChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Hangzhou" ;
+        p:inCountry  :CountryChinaMainland .
 
 :CityKaragandaKazakhstan
         rdf:type     :City ;
@@ -25555,7 +25563,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "16.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityChengduChina(Mainland)> .
+        p:inCity                   :CityChengduChinaMainland .
 
 :2019R323  rdf:type  :Award ;
         rdfs:label  "Rank 323 in 2019" ;
@@ -25904,6 +25912,10 @@
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
         p:inCity                   :CityAarhusDenmark , :CityDenmark .
+
+:CityMutahJordan  rdf:type  :City ;
+        rdfs:label   "Mu'tah" ;
+        p:inCountry  :CountryJordan .
 
 :CityExeterUnitedKingdom
         rdf:type     :City ;
@@ -26437,7 +26449,7 @@
 
 :CityAbuDhabiUnitedArabEmirates
         rdf:type     :City ;
-        rdfs:label   "Abu Dhabi" ;
+        rdfs:label   "Abu Dhabi," , "Abu Dhabi" ;
         p:inCountry  :CountryUnitedArabEmirates .
 
 :CityMarseilleFrance  rdf:type  :City ;
@@ -26732,7 +26744,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "20.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityChina(Mainland)> .
+        p:inCity                   :CityChinaMainland .
 
 :CitySienaItaly  rdf:type  :City ;
         rdfs:label   "Siena" ;
@@ -26749,11 +26761,6 @@
         p:hasRank   "180"^^xsd:int ;
         p:hasScore  "46.1"^^xsd:double ;
         p:inYear    :2022 .
-
-:CityWashingtonD.C.UnitedStates
-        rdf:type     :City ;
-        rdfs:label   "Washington D.C." ;
-        p:inCountry  :CountryUnitedStates .
 
 :CityAveiroPortugal  rdf:type  :City ;
         rdfs:label   "Aveiro" ;
@@ -26815,11 +26822,6 @@
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "9.0"^^xsd:double ;
         p:inCity                   :CityParisFrance .
-
-:CityLouvain-la-NeuveBelgium
-        rdf:type     :City ;
-        rdfs:label   "Louvain-la-Neuve" ;
-        p:inCountry  :CountryBelgium .
 
 :Q1122171  rdf:type                :PublicUniversity ;
         rdfs:label                 "Brno University of Technology" ;
@@ -27034,7 +27036,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "6.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :Q499911  rdf:type                 :PublicUniversity ;
         rdfs:label                 "University of Turin" ;
@@ -27071,7 +27073,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "9.0"^^xsd:double ;
-        p:inCity                   :CitySt.PetersburgRussia .
+        p:inCity                   :CityStPetersburgRussia .
 
 :Q258464  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Trinity College Dublin, The University of Dublin" ;
@@ -27380,11 +27382,6 @@
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "24.0"^^xsd:double ;
         p:inCity                   :CityKampalaUganda .
-
-<http://qs.hocky.id/v/CityKelburn,WellingtonNewZealand>
-        rdf:type     :City ;
-        rdfs:label   "Kelburn, Wellington" ;
-        p:inCountry  :CountryNewZealand .
 
 :2020R439  rdf:type  :Award ;
         rdfs:label  "Rank 439 in 2020" ;
@@ -27949,6 +27946,11 @@
         p:hasScore  "68.9"^^xsd:double ;
         p:inYear    :2021 .
 
+:CityStLouisUnitedStates
+        rdf:type     :City ;
+        rdfs:label   "St. Louis" ;
+        p:inCountry  :CountryUnitedStates .
+
 :Q1066492  rdf:type                :PublicUniversity ;
         rdfs:label                 "Stellenbosch University" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q1066492> ;
@@ -28126,7 +28128,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityWuhanChina(Mainland)> .
+        p:inCity                   :CityWuhanChinaMainland .
 
 :2019R42  rdf:type  :Award ;
         rdfs:label  "Rank 42 in 2019" ;
@@ -28315,7 +28317,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "22.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityTehranIran,IslamicRepublicof> .
+        p:inCity                   :CityTehranIranIslamicRepublicof .
 
 :Q6039029  rdf:type               :PublicUniversity ;
         rdfs:label                "Universiti Teknologi Brunei" ;
@@ -28341,6 +28343,11 @@
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
         p:inCity                   :CityMelbourneAustralia .
+
+:CityChongqingChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Chongqing" ;
+        p:inCountry  :CountryChinaMainland .
 
 :CitySyracuseUnitedStates
         rdf:type     :City ;
@@ -28390,6 +28397,11 @@
         rdf:type     :City ;
         rdfs:label   "Toowoomba" ;
         p:inCountry  :CountryAustralia .
+
+:CityStPetersburgRussia
+        rdf:type     :City ;
+        rdfs:label   "St. Petersburg" ;
+        p:inCountry  :CountryRussia .
 
 :Q656871  rdf:type                 :PublicUniversity ;
         rdfs:label                 "University of Khartoum" ;
@@ -28531,11 +28543,6 @@
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
         p:inCity                   :CityIslamabadPakistan .
 
-<http://qs.hocky.id/v/CityTianjinChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Tianjin" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
-
 :2022R57  rdf:type  :Award ;
         rdfs:label  "Rank 57 in 2022" ;
         p:hasRank   "57"^^xsd:int ;
@@ -28667,11 +28674,6 @@
         p:hasStudentFacultyRatio   "9.0"^^xsd:double ;
         p:inCity                   :CityPamplonaSpain .
 
-:CitySaint-AubinFrance
-        rdf:type     :City ;
-        rdfs:label   "Saint-Aubin" ;
-        p:inCountry  :CountryFrance .
-
 :CountryCuba  rdf:type  :Country ;
         rdfs:label  "Cuba" ;
         owl:sameAs  <http://www.wikidata.org/entity/Q241> ;
@@ -28754,6 +28756,12 @@
         p:hasScore  "25.0"^^xsd:double ;
         p:inYear    :2021 .
 
+:2020R302  rdf:type  :Award ;
+        rdfs:label  "Rank 302 in 2020" ;
+        p:hasRank   "302"^^xsd:int ;
+        p:hasScore  "34.3"^^xsd:double ;
+        p:inYear    :2020 .
+
 :Q734764  rdf:type                 :PublicUniversity ;
         rdfs:label                 "The University of New South Wales (UNSW Sydney)" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q734764> ;
@@ -28767,11 +28775,10 @@
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
         p:inCity                   :CitySydneyAustralia .
 
-:2020R302  rdf:type  :Award ;
-        rdfs:label  "Rank 302 in 2020" ;
-        p:hasRank   "302"^^xsd:int ;
-        p:hasScore  "34.3"^^xsd:double ;
-        p:inYear    :2020 .
+:CityHefeiChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Hefei" ;
+        p:inCountry  :CountryChinaMainland .
 
 :2020R296  rdf:type  :Award ;
         rdfs:label  "Rank 296 in 2020" ;
@@ -28852,10 +28859,6 @@
         p:hasRank   "591-600"^^xsd:int ;
         p:inYear    :2022 .
 
-:CityAl-EkirBahrain  rdf:type  :City ;
-        rdfs:label   "Al-Ekir" ;
-        p:inCountry  :CountryBahrain .
-
 :CityLvivUkraine  rdf:type  :City ;
         rdfs:label   "Lviv" ;
         p:inCountry  :CountryUkraine .
@@ -28912,7 +28915,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "9.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityNankaiChina(Mainland)> , <http://qs.hocky.id/v/CityTianjinChina(Mainland)> .
+        p:inCity                   :CityTianjinChinaMainland , :CityNankaiChinaMainland .
 
 :CountryEstonia  rdf:type  :Country ;
         rdfs:label  "Estonia" ;
@@ -28983,7 +28986,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "8.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityGuangzhouChina(Mainland)> .
+        p:inCity                   :CityGuangzhouChinaMainland .
 
 :2021R368  rdf:type  :Award ;
         rdfs:label  "Rank 368 in 2021" ;
@@ -29037,7 +29040,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShanghaiChina(Mainland)> .
+        p:inCity                   :CityShanghaiChinaMainland .
 
 :2017R97  rdf:type  :Award ;
         rdfs:label  "Rank 97 in 2017" ;
@@ -29131,7 +29134,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :Q748085  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Università degli Studi di Perugia" ;
@@ -29642,17 +29645,23 @@
         rdfs:label   "Kufa" ;
         p:inCountry  :CountryIraq .
 
+:2022R3  rdf:type   :Award ;
+        rdfs:label  "Rank 3 in 2022" ;
+        p:hasRank   "3"^^xsd:int ;
+        p:hasScore  "98.7"^^xsd:double ;
+        p:inYear    :2022 .
+
 :2017R233  rdf:type  :Award ;
         rdfs:label  "Rank 233 in 2017" ;
         p:hasRank   "233"^^xsd:int ;
         p:hasScore  "42.8"^^xsd:double ;
         p:inYear    :2017 .
 
-:2022R3  rdf:type   :Award ;
-        rdfs:label  "Rank 3 in 2022" ;
-        p:hasRank   "3"^^xsd:int ;
-        p:hasScore  "98.7"^^xsd:double ;
-        p:inYear    :2022 .
+:2020R106  rdf:type  :Award ;
+        rdfs:label  "Rank 106 in 2020" ;
+        p:hasRank   "106"^^xsd:int ;
+        p:hasScore  "58.6"^^xsd:double ;
+        p:inYear    :2020 .
 
 :2019R203  rdf:type  :Award ;
         rdfs:label  "Rank 203 in 2019" ;
@@ -29671,11 +29680,10 @@
         p:hasRank   "501-550"^^xsd:int ;
         p:inYear    :2018 .
 
-:2020R106  rdf:type  :Award ;
-        rdfs:label  "Rank 106 in 2020" ;
-        p:hasRank   "106"^^xsd:int ;
-        p:hasScore  "58.6"^^xsd:double ;
-        p:inYear    :2020 .
+:CityMaslakIstanbulTurkey
+        rdf:type     :City ;
+        rdfs:label   "Maslak-Istanbul" ;
+        p:inCountry  :CountryTurkey .
 
 :2017R13  rdf:type  :Award ;
         rdfs:label  "Rank 13 in 2017" ;
@@ -30045,6 +30053,12 @@
         p:hasStudentFacultyRatio   "23.0"^^xsd:double ;
         p:inCity                   :CityFrance .
 
+:2020R28  rdf:type  :Award ;
+        rdfs:label  "Rank 28 in 2020" ;
+        p:hasRank   "28"^^xsd:int ;
+        p:hasScore  "82.6"^^xsd:double ;
+        p:inYear    :2020 .
+
 :Q1161619  rdf:type                :PublicUniversity ;
         rdfs:label                 "Suez Canal University" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q1161619> ;
@@ -30057,17 +30071,6 @@
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "12.0"^^xsd:double ;
         p:inCity                   :CityEgypt .
-
-:2020R28  rdf:type  :Award ;
-        rdfs:label  "Rank 28 in 2020" ;
-        p:hasRank   "28"^^xsd:int ;
-        p:hasScore  "82.6"^^xsd:double ;
-        p:inYear    :2020 .
-
-:CityWinston-SalemUnitedStates
-        rdf:type     :City ;
-        rdfs:label   "Winston-Salem" ;
-        p:inCountry  :CountryUnitedStates .
 
 :Q738258  rdf:type                 :PrivateUniversity ;
         rdfs:label                 "University of Miami" ;
@@ -30497,11 +30500,6 @@
         p:hasScore  "86.9"^^xsd:double ;
         p:inYear    :2018 .
 
-<http://qs.hocky.id/v/CityJinanChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Jinan" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
-
 :CityBernSwitzerland  rdf:type  :City ;
         rdfs:label   "Bern" ;
         p:inCountry  :CountrySwitzerland .
@@ -30697,6 +30695,11 @@
         p:hasScore  "96.8"^^xsd:double ;
         p:inYear    :2019 .
 
+:CityChangshaChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Changsha" ;
+        p:inCountry  :CountryChinaMainland .
+
 :Q1640726  rdf:type                :PublicUniversity ;
         rdfs:label                 "National Technical University of Athens" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q1640726> ;
@@ -30871,6 +30874,11 @@
         p:hasScore  "88.0"^^xsd:double ;
         p:inYear    :2021 .
 
+:CityNankaiChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Nankai" ;
+        p:inCountry  :CountryChinaMainland .
+
 :Q1760791  rdf:type                :PublicUniversity ;
         rdfs:label                 "Middlesex University" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q1760791> ;
@@ -30987,7 +30995,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "14.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityChongqingChina(Mainland)> .
+        p:inCity                   :CityChongqingChinaMainland .
 
 :2021R120  rdf:type  :Award ;
         rdfs:label  "Rank 120 in 2021" ;
@@ -31057,11 +31065,6 @@
         p:hasStudentFacultyRatio   "22.0"^^xsd:double ;
         p:inCity                   :CityFiscianoItaly .
 
-<http://qs.hocky.id/v/CityShanghaiChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Shanghai" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
-
 :CityKunitachiCityJapan
         rdf:type     :City ;
         rdfs:label   "Kunitachi City" ;
@@ -31113,7 +31116,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "11.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityNanjingChina(Mainland)> .
+        p:inCity                   :CityNanjingChinaMainland .
 
 :CityBruceAustralia  rdf:type  :City ;
         rdfs:label   "Bruce" ;
@@ -31302,6 +31305,12 @@
         p:hasStudentFacultyRatio   "10.0"^^xsd:double ;
         p:inCity                   :CityKualaLumpurMalaysia .
 
+:2020R377  rdf:type  :Award ;
+        rdfs:label  "Rank 377 in 2020" ;
+        p:hasRank   "377"^^xsd:int ;
+        p:hasScore  "29.0"^^xsd:double ;
+        p:inYear    :2020 .
+
 :CityNiigataCityJapan
         rdf:type     :City ;
         rdfs:label   "Niigata City" ;
@@ -31320,12 +31329,6 @@
         p:hasStudentFacultyRatio   "7.0"^^xsd:double ;
         p:inCity                   :CityEdinburghUnitedKingdom .
 
-:2020R377  rdf:type  :Award ;
-        rdfs:label  "Rank 377 in 2020" ;
-        p:hasRank   "377"^^xsd:int ;
-        p:hasScore  "29.0"^^xsd:double ;
-        p:inYear    :2020 .
-
 :Q500606  rdf:type                 :PublicUniversity ;
         rdfs:label                 "University of South Florida" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q500606> ;
@@ -31338,6 +31341,11 @@
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "18.0"^^xsd:double ;
         p:inCity                   :CityTampaUnitedStates .
+
+:CityHarbinChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Harbin" ;
+        p:inCountry  :CountryChinaMainland .
 
 :2022R347  rdf:type  :Award ;
         rdfs:label  "Rank 347 in 2022" ;
@@ -31429,7 +31437,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "19.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityHarbinChina(Mainland)> .
+        p:inCity                   :CityHarbinChinaMainland .
 
 :Q1068752  rdf:type                :PrivateUniversity ;
         rdfs:label                 "Howard University" ;
@@ -31442,7 +31450,7 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "8.0"^^xsd:double ;
-        p:inCity                   :CityWashingtonD.C.UnitedStates .
+        p:inCity                   :CityWashingtonDCUnitedStates .
 
 :CityJeonjuSouthKorea
         rdf:type     :City ;
@@ -31627,11 +31635,6 @@
         p:hasStudentFacultyRatio   "19.0"^^xsd:double ;
         p:inCity                   :CityBangkokThailand .
 
-:CitySt.AndrewsUnitedKingdom
-        rdf:type     :City ;
-        rdfs:label   "St. Andrews" ;
-        p:inCountry  :CountryUnitedKingdom .
-
 :CityUniversityParkUnitedStates
         rdf:type     :City ;
         rdfs:label   "University Park" ;
@@ -31692,12 +31695,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "6.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityShanghaiChina(Mainland)> .
-
-<http://qs.hocky.id/v/CityChangshaChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Changsha" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
+        p:inCity                   :CityShanghaiChinaMainland .
 
 :2017R319  rdf:type  :Award ;
         rdfs:label  "Rank 319 in 2017" ;
@@ -31828,7 +31826,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "XL" ;
         p:hasStudentFacultyRatio   "9.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityXi'anChina(Mainland)> .
+        p:inCity                   :CityXianChinaMainland .
 
 :Q1145497  rdf:type                :PublicUniversity ;
         rdfs:label                 "Curtin University" ;
@@ -31907,6 +31905,12 @@
         p:hasStudentFacultyRatio   "26.0"^^xsd:double ;
         p:inCity                   :CityCartagenaColombia .
 
+:2020R314  rdf:type  :Award ;
+        rdfs:label  "Rank 314 in 2020" ;
+        p:hasRank   "314"^^xsd:int ;
+        p:hasScore  "33.4"^^xsd:double ;
+        p:inYear    :2020 .
+
 :2019R411  rdf:type  :Award ;
         rdfs:label  "Rank 411 in 2019" ;
         p:hasRank   "411"^^xsd:int ;
@@ -31926,11 +31930,10 @@
         p:hasStudentFacultyRatio   "18.0"^^xsd:double ;
         p:inCity                   :CityVaranasiIndia .
 
-:2020R314  rdf:type  :Award ;
-        rdfs:label  "Rank 314 in 2020" ;
-        p:hasRank   "314"^^xsd:int ;
-        p:hasScore  "33.4"^^xsd:double ;
-        p:inYear    :2020 .
+:CityJinanChinaMainland
+        rdf:type     :City ;
+        rdfs:label   "Jinan" ;
+        p:inCountry  :CountryChinaMainland .
 
 :Q1074117  rdf:type                :PublicUniversity ;
         rdfs:label                 "Renmin (People's) University of China" ;
@@ -31943,7 +31946,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "13.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityBeijingChina(Mainland)> .
+        p:inCity                   :CityBeijingChinaMainland .
 
 :CityWinnipegCanada  rdf:type  :City ;
         rdfs:label   "Winnipeg" ;
@@ -32443,10 +32446,6 @@
         p:hasStudentFacultyRatio   "17.0"^^xsd:double ;
         p:inCity                   :CityKragujevacSerbia .
 
-:CityAs-SaltJordan  rdf:type  :City ;
-        rdfs:label   "As-Salt" ;
-        p:inCountry  :CountryJordan .
-
 :Q707456  rdf:type                 :PublicUniversity ;
         rdfs:label                 "National Taipei University" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q707456> ;
@@ -32612,10 +32611,6 @@
         p:hasRank   "236"^^xsd:int ;
         p:hasScore  "39.1"^^xsd:double ;
         p:inYear    :2019 .
-
-<http://qs.hocky.id/v/CityChina(Mainland)>
-        rdf:type     :City ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :2020R139  rdf:type  :Award ;
         rdfs:label  "Rank 139 in 2020" ;
@@ -32840,7 +32835,7 @@
         p:hasResearchOutput        :Medium ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "15.0"^^xsd:double ;
-        p:inCity                   <http://qs.hocky.id/v/CityJerusalemPalestinianTerritory,Occupied> .
+        p:inCity                   :CityJerusalemPalestinianTerritoryOccupied .
 
 :2022R231  rdf:type  :Award ;
         rdfs:label  "Rank 231 in 2022" ;
@@ -32961,10 +32956,6 @@
         p:hasScore  "37.7"^^xsd:double ;
         p:inYear    :2017 .
 
-:CityTandilArgentina  rdf:type  :City ;
-        rdfs:label   "Tandil" ;
-        p:inCountry  :CountryArgentina .
-
 :Q720953  rdf:type                 :PublicUniversity ;
         rdfs:label                 "University of Colombo" ;
         owl:sameAs                 <http://www.wikidata.org/entity/Q720953> ;
@@ -32976,18 +32967,17 @@
         p:hasResearchOutput        :High ;
         p:hasSize                  "L" ;
         p:hasStudentFacultyRatio   "27.0"^^xsd:double ;
-        p:inCity                   :CityHoranaSriLanka , <http://qs.hocky.id/v/CityColombo,SriLanka> .
+        p:inCity                   :CityHoranaSriLanka , :CityColomboSriLanka .
+
+:CityTandilArgentina  rdf:type  :City ;
+        rdfs:label   "Tandil" ;
+        p:inCountry  :CountryArgentina .
 
 :2022R125  rdf:type  :Award ;
         rdfs:label  "Rank 125 in 2022" ;
         p:hasRank   "125"^^xsd:int ;
         p:hasScore  "55.3"^^xsd:double ;
         p:inYear    :2022 .
-
-<http://qs.hocky.id/v/CityNablusPalestinianTerritory,Occupied>
-        rdf:type     :City ;
-        rdfs:label   "Nablus" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryPalestinianTerritory,Occupied> .
 
 :Q506330  rdf:type                 :PublicUniversity ;
         rdfs:label                 "Bangladesh University of Engineering and Technology" ;
@@ -33019,7 +33009,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "4.0"^^xsd:double ;
-        p:inCity                   :CityWinston-SalemUnitedStates .
+        p:inCity                   :CityWinstonSalemUnitedStates .
 
 :2017R203  rdf:type  :Award ;
         rdfs:label  "Rank 203 in 2017" ;
@@ -33036,11 +33026,6 @@
         rdf:type     :City ;
         rdfs:label   "New York City" ;
         p:inCountry  :CountryUnitedStates .
-
-<http://qs.hocky.id/v/CityDalianChina(Mainland)>
-        rdf:type     :City ;
-        rdfs:label   "Dalian" ;
-        p:inCountry  <http://qs.hocky.id/v/CountryChina(Mainland)> .
 
 :2019R167  rdf:type  :Award ;
         rdfs:label  "Rank 167 in 2019" ;
@@ -33184,7 +33169,7 @@
         p:hasResearchOutput        :VeryHigh ;
         p:hasSize                  "M" ;
         p:hasStudentFacultyRatio   "20.0"^^xsd:double ;
-        p:inCity                   :CitySt.GallenSwitzerland .
+        p:inCity                   :CityStGallenSwitzerland .
 
 :2022R104  rdf:type  :Award ;
         rdfs:label  "Rank 104 in 2022" ;
