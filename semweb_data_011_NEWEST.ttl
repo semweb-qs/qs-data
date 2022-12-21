@@ -14,17 +14,22 @@
 #    Object Properties
 #################################################################
 
-###  https://qs.hocky.id/p/InverseInYear
-p:InverseInYear rdf:type owl:ObjectProperty ;
-                owl:inverseOf p:inYear ;
-                rdfs:label "Contains Awards" .
+###  https://qs.hocky.id/cityHas
+:cityHas rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf p:inverseLocationIn ;
+         owl:inverseOf p:inCity .
 
 
-###  https://qs.hocky.id/p/InverseLocationIn
-p:InverseLocationIn rdf:type owl:ObjectProperty ;
-                    owl:inverseOf p:locatedIn ;
-                    rdf:type owl:TransitiveProperty ;
-                    rdfs:label "Contains The Location Of" .
+###  https://qs.hocky.id/countryHas
+:countryHas rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf p:inverseLocationIn ;
+            owl:inverseOf p:inCountry .
+
+
+###  https://qs.hocky.id/regionHas
+:regionHas rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf p:inverseLocationIn ;
+           owl:inverseOf p:inRegion .
 
 
 ###  https://qs.hocky.id/p/awardedTo
@@ -75,11 +80,24 @@ p:inRegion rdf:type owl:ObjectProperty ;
 
 
 ###  https://qs.hocky.id/p/inYear
-p:inYear rdf:type owl:ObjectProperty ,
-                  owl:FunctionalProperty ;
+p:inYear rdf:type owl:ObjectProperty ;
+         owl:inverseOf p:inverseInYear ;
+         rdf:type owl:FunctionalProperty ;
          rdfs:domain :Award ;
          rdfs:range :Year ;
          rdfs:label "Year" .
+
+
+###  https://qs.hocky.id/p/inverseInYear
+p:inverseInYear rdf:type owl:ObjectProperty ;
+                rdfs:label "Contains Awards" .
+
+
+###  https://qs.hocky.id/p/inverseLocationIn
+p:inverseLocationIn rdf:type owl:ObjectProperty ;
+                    owl:inverseOf p:locatedIn ;
+                    rdf:type owl:TransitiveProperty ;
+                    rdfs:label "Contains The Location Of" .
 
 
 ###  https://qs.hocky.id/p/locatedIn
