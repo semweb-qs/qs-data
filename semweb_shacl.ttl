@@ -1,0 +1,160 @@
+@prefix :      <http://qs.hocky.id/v/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix p:     <https://qs.hocky.id/p/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+
+:AwardShape a sh:nodeShape ;
+    sh:targetClass :Award ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path p:hasRank ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:int ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path p:hasScore ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:double ;
+    ] ;
+    sh:property [
+        sh:path p:inYear ;
+        sh:nodeKind sh:IRI ;
+        sh:class :Year ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+:CityShape a sh:nodeShape ;
+    sh:targetClass :City ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path p:inCountry ;
+        sh:nodeKind sh:IRI ;
+        sh:class :Country ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+:CountryShape a sh:nodeShape ;
+    sh:targetClass :Country ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path p:inRegion ;
+        sh:nodeKind sh:IRI ;
+        sh:class :Region ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+:UniversityShape a sh:nodeShape ;
+    sh:targetClass :PrivateUniversity, :PublicUniversity ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path p:hasAwards ;
+        sh:nodeKind sh:IRI ;
+        sh:class :Award ;
+    ] ;
+    sh:property [
+        sh:path p:hasFaculty ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:int ;
+    ] ;
+    sh:property [
+        sh:path p:hasInternationalStudent ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:int ;
+    ] ;
+    sh:property [
+        sh:path p:hasLink ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path p:hasLogo ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path p:hasResearchOutput ;
+        sh:nodeKind sh:IRI ;
+        sh:class :ResearchOutput ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path p:hasSize ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path p:hasStudentFacultyRatio ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:double ;
+    ] ;
+    sh:property [
+        sh:path p:inCity ;
+        sh:nodeKind sh:IRI ;
+        sh:class :City ;
+        sh:minCount 1 ;
+    ] .
+
+:RegionShape a sh:nodeShape ;
+    sh:targetClass :Region ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] .
+
+:YearShape a sh:nodeShape ;
+    sh:targetClass :Year ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:int ;
+        sh:minCount 1 ;
+    ] .
+
+:ResearchOutputShape a sh:nodeShape ;
+    sh:targetClass :ResearchOutput ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] .
